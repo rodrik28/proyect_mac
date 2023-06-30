@@ -13,6 +13,7 @@
 		B841C7792A4763B400E9C229 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B841C7772A4763B400E9C229 /* Main.storyboard */; };
 		B841C77B2A4763B400E9C229 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B841C77A2A4763B400E9C229 /* Assets.xcassets */; };
 		B841C77E2A4763B400E9C229 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B841C77C2A4763B400E9C229 /* LaunchScreen.storyboard */; };
+		C86A6CF02A4F6EF600BFA4D6 /* PrincipalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86A6CEF2A4F6EF600BFA4D6 /* PrincipalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B841C77A2A4763B400E9C229 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B841C77D2A4763B400E9C229 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B841C77F2A4763B400E9C229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C86A6CEF2A4F6EF600BFA4D6 /* PrincipalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincipalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				B841C7732A4763B400E9C229 /* SceneDelegate.swift */,
 				B841C7752A4763B400E9C229 /* ViewController.swift */,
 				B841C7772A4763B400E9C229 /* Main.storyboard */,
+				C86A6CEF2A4F6EF600BFA4D6 /* PrincipalViewController.swift */,
 				B841C77A2A4763B400E9C229 /* Assets.xcassets */,
 				B841C77C2A4763B400E9C229 /* LaunchScreen.storyboard */,
 				B841C77F2A4763B400E9C229 /* Info.plist */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B841C7762A4763B400E9C229 /* ViewController.swift in Sources */,
+				C86A6CF02A4F6EF600BFA4D6 /* PrincipalViewController.swift in Sources */,
 				B841C7722A4763B400E9C229 /* AppDelegate.swift in Sources */,
 				B841C7742A4763B400E9C229 /* SceneDelegate.swift in Sources */,
 			);
@@ -216,7 +220,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +274,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
