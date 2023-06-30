@@ -16,6 +16,7 @@
 		B87C6DA82A4F5C6B0041D11B /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87C6DA72A4F5C6B0041D11B /* LogViewController.swift */; };
 		B87C6DAA2A4F5C7E0041D11B /* RegViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87C6DA92A4F5C7E0041D11B /* RegViewController.swift */; };
 		B87C6DAC2A4F68680041D11B /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87C6DAB2A4F68680041D11B /* UserDetailViewController.swift */; };
+		C86A6CF22A4F858700BFA4D6 /* TabPrincipalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86A6CF12A4F858700BFA4D6 /* TabPrincipalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		B87C6DA72A4F5C6B0041D11B /* LogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogViewController.swift; sourceTree = "<group>"; };
 		B87C6DA92A4F5C7E0041D11B /* RegViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegViewController.swift; sourceTree = "<group>"; };
 		B87C6DAB2A4F68680041D11B /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
+		C86A6CF12A4F858700BFA4D6 /* TabPrincipalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPrincipalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +69,7 @@
 				B841C7732A4763B400E9C229 /* SceneDelegate.swift */,
 				B841C7752A4763B400E9C229 /* ViewController.swift */,
 				B841C7772A4763B400E9C229 /* Main.storyboard */,
-				C86A6CEF2A4F6EF600BFA4D6 /* PrincipalViewController.swift */,
+				C86A6CF12A4F858700BFA4D6 /* TabPrincipalViewController.swift */,
 				B841C77A2A4763B400E9C229 /* Assets.xcassets */,
 				B841C77C2A4763B400E9C229 /* LaunchScreen.storyboard */,
 				B841C77F2A4763B400E9C229 /* Info.plist */,
@@ -157,9 +159,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B841C7762A4763B400E9C229 /* ViewController.swift in Sources */,
-				C86A6CF02A4F6EF600BFA4D6 /* PrincipalViewController.swift in Sources */,
 				B841C7722A4763B400E9C229 /* AppDelegate.swift in Sources */,
 				B87C6DAC2A4F68680041D11B /* UserDetailViewController.swift in Sources */,
+				C86A6CF22A4F858700BFA4D6 /* TabPrincipalViewController.swift in Sources */,
 				B87C6DAA2A4F5C7E0041D11B /* RegViewController.swift in Sources */,
 				B841C7742A4763B400E9C229 /* SceneDelegate.swift in Sources */,
 				B87C6DA82A4F5C6B0041D11B /* LogViewController.swift in Sources */,
