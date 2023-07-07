@@ -19,6 +19,15 @@
 		C86A6CF22A4F858700BFA4D6 /* TabPrincipalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86A6CF12A4F858700BFA4D6 /* TabPrincipalViewController.swift */; };
 		C8A3BE982A55BF9A00259AD6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8A3BE972A55BF9A00259AD6 /* GoogleService-Info.plist */; };
 		CE783374ADBE8DC923FDA20C /* Pods_mcfly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB7905DAF8B52C098AD9C185 /* Pods_mcfly.framework */; };
+		FA7465062A58473600554179 /* AntebrazoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7465052A58473600554179 /* AntebrazoViewController.swift */; };
+		FA7465082A58494100554179 /* TricepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7465072A58494100554179 /* TricepViewController.swift */; };
+		FA7935332A57A8AB00267B70 /* PiernaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7935322A57A8AB00267B70 /* PiernaViewController.swift */; };
+		FA7935352A57B0CB00267B70 /* PantorrillaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7935342A57B0CB00267B70 /* PantorrillaViewController.swift */; };
+		FA7E711C2A566BA200C9B7B7 /* EspaldaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E711B2A566BA200C9B7B7 /* EspaldaViewController.swift */; };
+		FA7E711E2A5676E600C9B7B7 /* PechoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E711D2A5676E600C9B7B7 /* PechoViewController.swift */; };
+		FA7E71202A567A6C00C9B7B7 /* HombroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E711F2A567A6C00C9B7B7 /* HombroViewController.swift */; };
+		FA7E71222A567F5000C9B7B7 /* BicepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E71212A567F5000C9B7B7 /* BicepViewController.swift */; };
+		FA7E71242A5685F400C9B7B7 /* AbdomenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E71232A5685F400C9B7B7 /* AbdomenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +47,15 @@
 		BB7905DAF8B52C098AD9C185 /* Pods_mcfly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mcfly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C86A6CF12A4F858700BFA4D6 /* TabPrincipalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPrincipalViewController.swift; sourceTree = "<group>"; };
 		C8A3BE972A55BF9A00259AD6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FA7465052A58473600554179 /* AntebrazoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AntebrazoViewController.swift; sourceTree = "<group>"; };
+		FA7465072A58494100554179 /* TricepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TricepViewController.swift; sourceTree = "<group>"; };
+		FA7935322A57A8AB00267B70 /* PiernaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiernaViewController.swift; sourceTree = "<group>"; };
+		FA7935342A57B0CB00267B70 /* PantorrillaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantorrillaViewController.swift; sourceTree = "<group>"; };
+		FA7E711B2A566BA200C9B7B7 /* EspaldaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EspaldaViewController.swift; sourceTree = "<group>"; };
+		FA7E711D2A5676E600C9B7B7 /* PechoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PechoViewController.swift; sourceTree = "<group>"; };
+		FA7E711F2A567A6C00C9B7B7 /* HombroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HombroViewController.swift; sourceTree = "<group>"; };
+		FA7E71212A567F5000C9B7B7 /* BicepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BicepViewController.swift; sourceTree = "<group>"; };
+		FA7E71232A5685F400C9B7B7 /* AbdomenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbdomenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +113,15 @@
 				B841C7732A4763B400E9C229 /* SceneDelegate.swift */,
 				B841C7752A4763B400E9C229 /* ViewController.swift */,
 				B841C7772A4763B400E9C229 /* Main.storyboard */,
+				FA7465072A58494100554179 /* TricepViewController.swift */,
+				FA7465052A58473600554179 /* AntebrazoViewController.swift */,
+				FA7935342A57B0CB00267B70 /* PantorrillaViewController.swift */,
+				FA7935322A57A8AB00267B70 /* PiernaViewController.swift */,
+				FA7E71232A5685F400C9B7B7 /* AbdomenViewController.swift */,
+				FA7E71212A567F5000C9B7B7 /* BicepViewController.swift */,
+				FA7E711F2A567A6C00C9B7B7 /* HombroViewController.swift */,
+				FA7E711D2A5676E600C9B7B7 /* PechoViewController.swift */,
+				FA7E711B2A566BA200C9B7B7 /* EspaldaViewController.swift */,
 				C86A6CF12A4F858700BFA4D6 /* TabPrincipalViewController.swift */,
 				B841C77A2A4763B400E9C229 /* Assets.xcassets */,
 				B841C77C2A4763B400E9C229 /* LaunchScreen.storyboard */,
@@ -230,13 +257,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA7465062A58473600554179 /* AntebrazoViewController.swift in Sources */,
+				FA7E71222A567F5000C9B7B7 /* BicepViewController.swift in Sources */,
 				B841C7762A4763B400E9C229 /* ViewController.swift in Sources */,
+				FA7E71202A567A6C00C9B7B7 /* HombroViewController.swift in Sources */,
+				FA7935352A57B0CB00267B70 /* PantorrillaViewController.swift in Sources */,
+				FA7E711E2A5676E600C9B7B7 /* PechoViewController.swift in Sources */,
 				B841C7722A4763B400E9C229 /* AppDelegate.swift in Sources */,
+				FA7935332A57A8AB00267B70 /* PiernaViewController.swift in Sources */,
 				B87C6DAC2A4F68680041D11B /* UserDetailViewController.swift in Sources */,
 				C86A6CF22A4F858700BFA4D6 /* TabPrincipalViewController.swift in Sources */,
+				FA7E71242A5685F400C9B7B7 /* AbdomenViewController.swift in Sources */,
+				FA7465082A58494100554179 /* TricepViewController.swift in Sources */,
 				B87C6DAA2A4F5C7E0041D11B /* RegViewController.swift in Sources */,
 				B841C7742A4763B400E9C229 /* SceneDelegate.swift in Sources */,
 				B87C6DA82A4F5C6B0041D11B /* LogViewController.swift in Sources */,
+				FA7E711C2A566BA200C9B7B7 /* EspaldaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
