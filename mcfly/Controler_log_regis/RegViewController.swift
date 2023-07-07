@@ -11,9 +11,19 @@ class RegViewController: UIViewController {
     
     
     
+    @IBOutlet var usertext: UITextField!
+    
+    
+    @IBOutlet var passtext: UITextField!
+    
+    
+
+    
     @IBAction func regi(_ sender: Any) {
         
-        print("Register")
+        
+        
+        
     }
     
 
