@@ -9,10 +9,19 @@ import UIKit
 
 class HombroViewController: UIViewController {
 
+    @IBOutlet weak var SegmentOutlet: UISegmentedControl!
+    
+    @IBOutlet weak var ejercicio1SegmentView: UIView!
+    
+    @IBOutlet weak var ejercicio2SegmentView: UIView!
+    
+    @IBOutlet weak var ejercicio3SegmentView: UIView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        self.view.bringSubviewToFront(SegmentOutlet)
 
         // Do any additional setup after loading the view.
     }

@@ -516,6 +516,12 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="LPh-Ku-4aO"/>
+                    <connections>
+                        <outlet property="SegmentOutlet" destination="EhY-ec-jtN" id="Ej7-yQ-ZIn"/>
+                        <outlet property="ejercicio1SegmentView" destination="69G-xp-VSv" id="JiM-s3-EAK"/>
+                        <outlet property="ejercicio2SegmentView" destination="LBc-WB-npI" id="qfD-u7-He0"/>
+                        <outlet property="ejercicio3SegmentView" destination="QMe-MD-Of6" id="Ucl-pg-2pa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SAt-BH-jOQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -683,6 +689,12 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="cGh-lb-ds3"/>
+                    <connections>
+                        <outlet property="SegmentOutlet" destination="cPE-BT-14R" id="pWG-OY-l4K"/>
+                        <outlet property="ejercicio1SegmentView" destination="GW4-tX-iLB" id="RXZ-4H-DeY"/>
+                        <outlet property="ejercicio2SegmentView" destination="2Dn-ze-Heb" id="feR-3R-BDE"/>
+                        <outlet property="ejercicio3SegmentView" destination="WfI-Eh-BQY" id="XFd-Zt-OPr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p2W-nl-z0H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -735,6 +747,12 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="N8S-zT-BEx"/>
+                    <connections>
+                        <outlet property="SegmentOutlet" destination="CyJ-l9-zyU" id="RDl-Oh-hty"/>
+                        <outlet property="ejercicio1SegmentView" destination="tVT-wq-Twy" id="baB-nW-V1F"/>
+                        <outlet property="ejercicio2SegmentView" destination="Ro8-aH-HWa" id="quE-8a-cAU"/>
+                        <outlet property="ejercicio3SegmentView" destination="q2J-kD-ran" id="j2A-Qv-A0G"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1EJ-CH-UTa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -779,6 +797,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="qhR-3z-Hdf"/>
+                    <connections>
+                        <outlet property="SegmentOutlet" destination="A7l-UP-72z" id="bzd-Rd-0SM"/>
+                        <outlet property="ejercicio1SegmentView" destination="oLL-W6-eFl" id="fEW-4I-ty5"/>
+                        <outlet property="ejercicio2SegmentView" destination="YP7-Dc-XDB" id="4Kt-zf-BF7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k85-gB-rNN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -831,6 +854,12 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="zUZ-6M-ldd"/>
+                    <connections>
+                        <outlet property="SegmentOutlet" destination="ty7-Sx-Ae7" id="5cf-hq-tR1"/>
+                        <outlet property="ejercicio1SegmentView" destination="Jd9-A8-zGu" id="HZN-Jh-LfG"/>
+                        <outlet property="ejercicio2SegmentView" destination="eZs-h3-EUY" id="ax5-W3-v7i"/>
+                        <outlet property="ejercicio3SegmentView" destination="ch3-G4-bwu" id="vk7-b5-sKH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Iq6-uY-scL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -883,6 +912,12 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="HSk-YE-AK3"/>
+                    <connections>
+                        <outlet property="SegmentOutlet" destination="N5D-Bj-LuT" id="bNa-qH-Kmb"/>
+                        <outlet property="ejercicio1SegmentView" destination="QxT-Pe-IaG" id="Ud6-MI-cHz"/>
+                        <outlet property="ejercicio2SegmentView" destination="2by-A1-jgo" id="RBR-Ve-or6"/>
+                        <outlet property="ejercicio3SegmentView" destination="4nv-UB-rTc" id="zeH-Ky-nGH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ffx-wh-q58" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -943,6 +978,13 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="GCc-mt-kDh"/>
+                    <connections>
+                        <outlet property="SegmentOutlet" destination="iyx-zF-cHe" id="fya-1o-zzM"/>
+                        <outlet property="ejercicio1SegmentView" destination="tPa-bb-H81" id="TcW-oR-WwT"/>
+                        <outlet property="ejercicio2SegmentView" destination="pev-I5-EDz" id="0Cn-sf-Kqo"/>
+                        <outlet property="ejercicio3SegmentView" destination="owW-Db-yko" id="43C-LQ-Ovl"/>
+                        <outlet property="ejercicio4SegmentView" destination="P4H-MN-RJz" id="hHc-hW-YBW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GZK-Cg-7Vs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
