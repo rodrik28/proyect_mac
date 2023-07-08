@@ -266,7 +266,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KvR-Dv-blD">
-                                <rect key="frame" x="17" y="401" width="369" height="185"/>
+                                <rect key="frame" x="15" y="401" width="368" height="182"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="Qag-0o-G3R" kind="embed" id="Uub-Cw-ocf"/>
@@ -310,7 +310,7 @@
                                 </connections>
                             </segmentedControl>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e2h-Dp-dvO">
-                                <rect key="frame" x="17" y="401" width="369" height="185"/>
+                                <rect key="frame" x="15" y="401" width="368" height="182"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="hlw-Mj-1la" kind="embed" id="MKu-tN-IIR"/>
@@ -352,28 +352,28 @@
                                 </segments>
                             </segmentedControl>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SJZ-XJ-9Gy">
-                                <rect key="frame" x="38" y="149" width="334" height="607"/>
+                                <rect key="frame" x="38" y="148" width="331" height="608"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="p2U-Vy-LsV" kind="embed" id="lXg-2H-qcf"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uFx-Y0-HCc">
-                                <rect key="frame" x="38" y="149" width="334" height="607"/>
+                                <rect key="frame" x="38" y="148" width="331" height="608"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="0Ap-LE-Inl" kind="embed" id="faz-Zo-org"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lVj-BM-XfX">
-                                <rect key="frame" x="38" y="149" width="334" height="607"/>
+                                <rect key="frame" x="38" y="148" width="331" height="608"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="gmv-KU-Adg" kind="embed" id="LAg-w1-f9g"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ghE-GJ-zBA">
-                                <rect key="frame" x="38" y="149" width="334" height="607"/>
+                                <rect key="frame" x="38" y="148" width="331" height="608"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="UBb-hk-30u" kind="embed" id="d9Y-xa-0Zh"/>
@@ -419,28 +419,28 @@
                                 </segments>
                             </segmentedControl>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sfD-yL-lSQ">
-                                <rect key="frame" x="34" y="168" width="341" height="580"/>
+                                <rect key="frame" x="31" y="166" width="343" height="579"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="X8H-5f-0Iq" kind="embed" id="6PP-Wd-IbF"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4e2-xl-uqN">
-                                <rect key="frame" x="34" y="168" width="341" height="580"/>
+                                <rect key="frame" x="31" y="166" width="343" height="579"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="bJi-fu-2ff" kind="embed" id="Gl9-Jm-UzY"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jHX-Sn-em7">
-                                <rect key="frame" x="34" y="168" width="341" height="580"/>
+                                <rect key="frame" x="31" y="166" width="343" height="579"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="QMK-2p-4jN" kind="embed" id="hcS-fI-AhD"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k1T-zy-l5e">
-                                <rect key="frame" x="34" y="168" width="341" height="580"/>
+                                <rect key="frame" x="31" y="166" width="343" height="579"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="ddz-xs-9YE" kind="embed" id="Isr-md-Nd9"/>
@@ -486,21 +486,21 @@
                                 </segments>
                             </segmentedControl>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="69G-xp-VSv">
-                                <rect key="frame" x="34" y="150" width="350" height="604"/>
+                                <rect key="frame" x="32" y="148" width="352" height="604"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="QcE-9p-id1" kind="embed" id="N4d-HM-iTB"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LBc-WB-npI">
-                                <rect key="frame" x="34" y="150" width="350" height="604"/>
+                                <rect key="frame" x="32" y="148" width="352" height="604"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="EFf-8O-cgP" kind="embed" id="P4c-GP-1fv"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QMe-MD-Of6">
-                                <rect key="frame" x="34" y="150" width="350" height="604"/>
+                                <rect key="frame" x="32" y="148" width="352" height="604"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="jTZ-KM-qbz" kind="embed" id="box-uz-Reb"/>
@@ -644,7 +644,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hh2-oc-DmV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1823" y="2077"/>
+            <point key="canvasLocation" x="3543" y="2308"/>
         </scene>
         <!--Tricep View Controller-->
         <scene sceneID="fS1-Of-Dd0">
@@ -664,21 +664,21 @@
                                 </segments>
                             </segmentedControl>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GW4-tX-iLB">
-                                <rect key="frame" x="39" y="134" width="337" height="615"/>
+                                <rect key="frame" x="38" y="134" width="338" height="613"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="GLD-tk-s7L" kind="embed" id="Qd2-Hf-bZ6"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Dn-ze-Heb">
-                                <rect key="frame" x="39" y="134" width="337" height="615"/>
+                                <rect key="frame" x="38" y="134" width="338" height="613"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="qUi-mg-xWX" kind="embed" id="ePQ-aJ-QVS"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WfI-Eh-BQY">
-                                <rect key="frame" x="39" y="134" width="337" height="615"/>
+                                <rect key="frame" x="38" y="134" width="338" height="613"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="FUo-06-8CW" kind="embed" id="G4m-JV-7Xq"/>
@@ -698,7 +698,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p2W-nl-z0H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2553.6231884057975" y="3617.4107142857142"/>
+            <point key="canvasLocation" x="3228" y="3752"/>
         </scene>
         <!--Antebrazo View Controller-->
         <scene sceneID="Op2-8R-tD7">
@@ -717,21 +717,21 @@
                                 </segments>
                             </segmentedControl>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tVT-wq-Twy">
-                                <rect key="frame" x="35" y="168" width="344" height="587"/>
+                                <rect key="frame" x="33" y="166" width="343" height="588"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="EUf-3d-pe3" kind="embed" id="DKi-Xl-YWi"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ro8-aH-HWa">
-                                <rect key="frame" x="35" y="168" width="344" height="587"/>
+                                <rect key="frame" x="33" y="166" width="343" height="588"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="3jS-cZ-Sc4" kind="embed" id="znn-I6-0jC"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="q2J-kD-ran">
-                                <rect key="frame" x="35" y="168" width="344" height="587"/>
+                                <rect key="frame" x="33" y="166" width="343" height="588"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="eLB-uL-NCl" kind="embed" id="m5b-Xc-jGe"/>
@@ -774,14 +774,14 @@
                                 </segments>
                             </segmentedControl>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oLL-W6-eFl">
-                                <rect key="frame" x="29" y="168" width="352" height="594"/>
+                                <rect key="frame" x="28" y="167" width="351" height="593"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="I5E-fM-FFL" kind="embed" id="RvF-Dc-ti3"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YP7-Dc-XDB">
-                                <rect key="frame" x="29" y="168" width="352" height="594"/>
+                                <rect key="frame" x="28" y="167" width="351" height="593"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="rr4-ji-QOq" kind="embed" id="g9f-MP-Ox9"/>
@@ -824,21 +824,21 @@
                                 </segments>
                             </segmentedControl>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jd9-A8-zGu">
-                                <rect key="frame" x="37" y="176" width="338" height="552"/>
+                                <rect key="frame" x="36" y="174" width="338" height="554"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="sW7-2G-HJi" kind="embed" id="Z2x-7q-LPK"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eZs-h3-EUY">
-                                <rect key="frame" x="37" y="176" width="338" height="552"/>
+                                <rect key="frame" x="36" y="174" width="338" height="554"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="fdr-SG-WlK" kind="embed" id="qF8-qg-b5S"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ch3-G4-bwu">
-                                <rect key="frame" x="37" y="176" width="338" height="552"/>
+                                <rect key="frame" x="36" y="174" width="338" height="554"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="cww-if-mrG" kind="embed" id="O49-hR-BJ6"/>
@@ -882,21 +882,21 @@
                                 </segments>
                             </segmentedControl>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QxT-Pe-IaG">
-                                <rect key="frame" x="21" y="150" width="372" height="606"/>
+                                <rect key="frame" x="19" y="150" width="372" height="604"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="eoO-SD-yUo" kind="embed" id="iS3-88-3As"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2by-A1-jgo">
-                                <rect key="frame" x="21" y="150" width="372" height="606"/>
+                                <rect key="frame" x="19" y="150" width="372" height="604"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="Yed-DF-H4n" kind="embed" id="fCF-LC-IuT"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4nv-UB-rTc">
-                                <rect key="frame" x="21" y="150" width="372" height="606"/>
+                                <rect key="frame" x="19" y="150" width="372" height="604"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="FxI-aJ-8JC" kind="embed" id="a9U-Id-7Vp"/>
@@ -941,28 +941,28 @@
                                 </segments>
                             </segmentedControl>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tPa-bb-H81">
-                                <rect key="frame" x="39" y="168" width="341" height="589"/>
+                                <rect key="frame" x="37" y="166" width="340" height="591"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="Uqi-M3-wjC" kind="embed" id="Fnf-vO-AQR"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pev-I5-EDz">
-                                <rect key="frame" x="39" y="168" width="341" height="589"/>
+                                <rect key="frame" x="37" y="166" width="340" height="591"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="VCK-lZ-2rQ" kind="embed" id="2I5-hS-cPa"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="owW-Db-yko">
-                                <rect key="frame" x="39" y="168" width="341" height="589"/>
+                                <rect key="frame" x="37" y="166" width="340" height="591"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="c13-tP-7Gg" kind="embed" id="4cC-HD-ywi"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P4H-MN-RJz">
-                                <rect key="frame" x="39" y="168" width="341" height="589"/>
+                                <rect key="frame" x="37" y="166" width="340" height="591"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="Hox-E8-g43" kind="embed" id="2Un-Zz-QuC"/>
@@ -1218,7 +1218,7 @@
             <objects>
                 <viewController id="hlw-Mj-1la" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bfr-fm-HQy">
-                        <rect key="frame" x="0.0" y="0.0" width="369" height="185"/>
+                        <rect key="frame" x="0.0" y="0.0" width="368" height="182"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KbZ-L1-pSC">
@@ -1241,7 +1241,7 @@
             <objects>
                 <viewController id="Qag-0o-G3R" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JcL-v5-5CL">
-                        <rect key="frame" x="0.0" y="0.0" width="369" height="185"/>
+                        <rect key="frame" x="0.0" y="0.0" width="368" height="182"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yXC-1g-lyb">
@@ -1264,7 +1264,7 @@
             <objects>
                 <viewController id="p2U-Vy-LsV" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Yvk-BZ-S84">
-                        <rect key="frame" x="0.0" y="0.0" width="334" height="607"/>
+                        <rect key="frame" x="0.0" y="0.0" width="331" height="608"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="yRr-3q-9I9">
@@ -1301,15 +1301,15 @@
             <objects>
                 <viewController id="0Ap-LE-Inl" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jDc-qG-zog">
-                        <rect key="frame" x="0.0" y="0.0" width="334" height="607"/>
+                        <rect key="frame" x="0.0" y="0.0" width="331" height="608"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="mWb-g0-MVE">
                                 <rect key="frame" x="47" y="91" width="240" height="300.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">Selecciona el peso deseado y agarra los manerales con las palmas mirando al frente y siéntate. Asegura tus rodillas bajo el rodillo para mantener una posición estable durante todo el movimiento. Con los brazos completamente extendidos, mira al frente y saca el pecho hacia fuera. Esta es la posición inicial.
-Inspira y tira del peso hacia abajo hacia la zona superior de tu pecho. Cuando sobrepases unos grados la paralela mantén la contracción durante un segundo y devuelve el peso a la posición inicial mientras sueltas el aire.</mutableString>
+                                <string key="text">Selecciona el peso deseado y agarra los manerales con las palmas mirando al frente y siéntate. Asegura tus rodillas bajo el rodillo para mantener una posición estable durante todo el movimiento. Con los brazos completamente extendidos, mira al frente y saca el pecho hacia fuera. Esta es la posición inicial.
+Inspira y tira del peso hacia abajo hacia la zona superior de tu pecho. Cuando sobrepases unos grados la paralela mantén la contracción durante un segundo y devuelve el peso a la posición inicial mientras sueltas el aire.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1339,7 +1339,7 @@ Inspira y tira del peso hacia abajo hacia la zona superior de tu pecho. Cuando s
             <objects>
                 <viewController id="gmv-KU-Adg" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TK4-kg-WnA">
-                        <rect key="frame" x="0.0" y="0.0" width="334" height="607"/>
+                        <rect key="frame" x="0.0" y="0.0" width="331" height="608"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pull Over en Polea" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JOO-4p-DER">
@@ -1376,7 +1376,7 @@ Inspira y tira del peso hacia abajo hacia la zona superior de tu pecho. Cuando s
             <objects>
                 <viewController id="UBb-hk-30u" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IB4-ma-hEg">
-                        <rect key="frame" x="0.0" y="0.0" width="334" height="607"/>
+                        <rect key="frame" x="0.0" y="0.0" width="331" height="608"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Remo Gironda" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="muj-qc-zPW">
@@ -1394,7 +1394,7 @@ Inspira y tira del peso hacia abajo hacia la zona superior de tu pecho. Cuando s
                                 <rect key="frame" x="47" y="93" width="240" height="300.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">Se trata de un banco de pesas donde debes adoptar una posición similar a la de un bote de remo olímpico, donde te colocas sentado con los pies apoyados en una superficie frontal y con las manos agarras la polea con la que harás un movimiento de tracción o tirón.En dicha polea, además, tienes diferentes opciones de agarre o barras que añadir para ir modificando el tipo de movimiento y los ángulos musculares en cada sesión, lo cual te permitirá variar el estímulo muscular y también hacer que los entrenamientos sean más divertidos.</mutableString>
+                                <string key="text">Se trata de un banco de pesas donde debes adoptar una posición similar a la de un bote de remo olímpico, donde te colocas sentado con los pies apoyados en una superficie frontal y con las manos agarras la polea con la que harás un movimiento de tracción o tirón.En dicha polea, además, tienes diferentes opciones de agarre o barras que añadir para ir modificando el tipo de movimiento y los ángulos musculares en cada sesión, lo cual te permitirá variar el estímulo muscular y también hacer que los entrenamientos sean más divertidos.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1413,7 +1413,7 @@ Inspira y tira del peso hacia abajo hacia la zona superior de tu pecho. Cuando s
             <objects>
                 <viewController id="X8H-5f-0Iq" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HO5-zE-C3X">
-                        <rect key="frame" x="0.0" y="0.0" width="341" height="580"/>
+                        <rect key="frame" x="0.0" y="0.0" width="343" height="579"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Prensa de Pecho Inclinado" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="42G-Yr-Lay">
@@ -1431,11 +1431,11 @@ Inspira y tira del peso hacia abajo hacia la zona superior de tu pecho. Cuando s
                                 <rect key="frame" x="38" y="85" width="270" height="322"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">La prensa de pecho inclinada es un ejercicio muy parecido al primero que de esta lista. Te ayudará a fortalecer las zonas media y baja de los pectorales con movimientos de intensidad media.Recuéstate sobre un banco inclinado para ejercicios.
+                                <string key="text">La prensa de pecho inclinada es un ejercicio muy parecido al primero que de esta lista. Te ayudará a fortalecer las zonas media y baja de los pectorales con movimientos de intensidad media.Recuéstate sobre un banco inclinado para ejercicios.
 Toma dos mancuernas, flexiona los codos y ubícalas a los laterales de tu pecho. Recuerda que tus palmas deben apuntar hacia el frente.
 Eleva los brazos hasta que estén completamente estirados.
 Bájalos lentamente y repite el ejercicio 9 veces más.
-Ejecuta esta actividad en 4 series de 10 repeticiones.</mutableString>
+Ejecuta esta actividad en 4 series de 10 repeticiones.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1454,7 +1454,7 @@ Ejecuta esta actividad en 4 series de 10 repeticiones.</mutableString>
             <objects>
                 <viewController id="bJi-fu-2ff" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qCv-kU-NF7">
-                        <rect key="frame" x="0.0" y="0.0" width="341" height="580"/>
+                        <rect key="frame" x="0.0" y="0.0" width="343" height="579"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Prensa de Pecho con Banco" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z1Q-DR-aeI">
@@ -1468,7 +1468,7 @@ Ejecuta esta actividad en 4 series de 10 repeticiones.</mutableString>
                                 <rect key="frame" x="22" y="82" width="297" height="317"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">Este es uno de los ejercicios de pectorales con mancuernas clásico que siempre da resultados. Tonificarás esta zona muscular y podrás practicarlo fácilmente en el gym.Recuéstate bocarriba en un banco para ejercicio.Toma 2 mancuernas y flexiona los codos dejándolos reposar sobre el suelo. Las mancuernas deberán quedar elevadas por encima de tu pecho.Sube las mancuernas en forma recta hasta que tus brazos queden totalmente perpendiculares a tu cuerpo.Espera unos segundos y bájalas a su posición inicial lentamente.Recuerda mantener controlada tu respiración, exhalando al levantar las mancuernas e inhalando al bajarlas.Realiza este movimiento 12 veces por un total de 4 series.</mutableString>
+                                <string key="text">Este es uno de los ejercicios de pectorales con mancuernas clásico que siempre da resultados. Tonificarás esta zona muscular y podrás practicarlo fácilmente en el gym.Recuéstate bocarriba en un banco para ejercicio.Toma 2 mancuernas y flexiona los codos dejándolos reposar sobre el suelo. Las mancuernas deberán quedar elevadas por encima de tu pecho.Sube las mancuernas en forma recta hasta que tus brazos queden totalmente perpendiculares a tu cuerpo.Espera unos segundos y bájalas a su posición inicial lentamente.Recuerda mantener controlada tu respiración, exhalando al levantar las mancuernas e inhalando al bajarlas.Realiza este movimiento 12 veces por un total de 4 series.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1491,7 +1491,7 @@ Ejecuta esta actividad en 4 series de 10 repeticiones.</mutableString>
             <objects>
                 <viewController id="QMK-2p-4jN" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AYP-fr-gcW">
-                        <rect key="frame" x="0.0" y="0.0" width="341" height="580"/>
+                        <rect key="frame" x="0.0" y="0.0" width="343" height="579"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cruces con polea alta" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rkP-AD-d2e">
@@ -1505,7 +1505,7 @@ Ejecuta esta actividad en 4 series de 10 repeticiones.</mutableString>
                                 <rect key="frame" x="29" y="93" width="288" height="334"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">Los cruces con polea alta suelen ser más utilizados que los cruces desde polea baja. De pie, agarramos cada una de las anillas con cada mano y las bajamos hasta la altura de la cadera para nuevamente subirlas controlando el movimiento hasta la posición inicial. Es importante tener una ligera flexión de codo para evitar lesiones.Si nos centramos en los músculos trabajados con este ejercicio hay que destacar la parte media e inferior del pectoral mayor, así como el deltoides anterior. Si el objetivo es marcar la parte central del pecho, "el canalillo" que une los dos pectorales, es aconsejable realizar este ejercicio.</mutableString>
+                                <string key="text">Los cruces con polea alta suelen ser más utilizados que los cruces desde polea baja. De pie, agarramos cada una de las anillas con cada mano y las bajamos hasta la altura de la cadera para nuevamente subirlas controlando el movimiento hasta la posición inicial. Es importante tener una ligera flexión de codo para evitar lesiones.Si nos centramos en los músculos trabajados con este ejercicio hay que destacar la parte media e inferior del pectoral mayor, así como el deltoides anterior. Si el objetivo es marcar la parte central del pecho, "el canalillo" que une los dos pectorales, es aconsejable realizar este ejercicio.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1528,7 +1528,7 @@ Ejecuta esta actividad en 4 series de 10 repeticiones.</mutableString>
             <objects>
                 <viewController id="ddz-xs-9YE" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Knd-dd-XrI">
-                        <rect key="frame" x="0.0" y="0.0" width="341" height="580"/>
+                        <rect key="frame" x="0.0" y="0.0" width="343" height="579"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cruces con Polea Baja" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a1x-YB-agy">
@@ -1566,7 +1566,7 @@ Desde esta posición inicial, subimos las poleas hasta la altura de los hombros,
             <objects>
                 <viewController id="QcE-9p-id1" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="d0F-Vu-9DE">
-                        <rect key="frame" x="0.0" y="0.0" width="350" height="604"/>
+                        <rect key="frame" x="0.0" y="0.0" width="352" height="604"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Press de Hombros con Mancuernas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6rX-gA-peg">
@@ -1580,8 +1580,8 @@ Desde esta posición inicial, subimos las poleas hasta la altura de los hombros,
                                 <rect key="frame" x="31" y="92" width="292" height="420"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">Fundamental hacerlo con un peso adecuado que nos permite rigor con la técnica. Subir las mancuernas con un buen impulso, casi explosivamente, descender lentamente, mantener firme el torso y guiar el movimiento de manera suave.Sentado en un asiento de espalda baja, o banco ajustable, mantenerse erguido mientras se sujetan un par de mancuernas. Comenzar elevándolas por fuera de los hombros con las palmas dirigidas hacia delante.
-Hacer press con las mancuernas llevándolas hacia arriba a la vez que se contraen los músculos de los hombros y se extienden los codos hasta que el peso quede por encima de la cabeza, justamente antes de bloquear los brazos. Lentamente, bajar las mancuernas a la posición de comienzo.</mutableString>
+                                <string key="text">Fundamental hacerlo con un peso adecuado que nos permite rigor con la técnica. Subir las mancuernas con un buen impulso, casi explosivamente, descender lentamente, mantener firme el torso y guiar el movimiento de manera suave.Sentado en un asiento de espalda baja, o banco ajustable, mantenerse erguido mientras se sujetan un par de mancuernas. Comenzar elevándolas por fuera de los hombros con las palmas dirigidas hacia delante.
+Hacer press con las mancuernas llevándolas hacia arriba a la vez que se contraen los músculos de los hombros y se extienden los codos hasta que el peso quede por encima de la cabeza, justamente antes de bloquear los brazos. Lentamente, bajar las mancuernas a la posición de comienzo.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1604,7 +1604,7 @@ Hacer press con las mancuernas llevándolas hacia arriba a la vez que se contrae
             <objects>
                 <viewController id="EFf-8O-cgP" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IqH-gn-G83">
-                        <rect key="frame" x="0.0" y="0.0" width="350" height="604"/>
+                        <rect key="frame" x="0.0" y="0.0" width="352" height="604"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Face Pull" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PNM-bf-Bks">
@@ -1622,8 +1622,8 @@ Hacer press con las mancuernas llevándolas hacia arriba a la vez que se contrae
                                 <rect key="frame" x="30" y="111" width="289" height="279"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">Lo habitual es usar un agarre prono y una polea. Si lo haces de pie tendrás que inclinarte ligeramente hacia atrás (ángulo de 20 grados), si lo haces sentado y en polea baja tendrás que separarte de la polea lo suficiente para sentir el peso y que las placas no choquen entre sí al estirar los brazos en cada repetición.
-El movimiento comienza con los brazos estirados, codos próximos al torso y con la columna bien erguida.  Desde esta posición llevamos la polea hacia el cuello o hacia el rostro combinando una extensión horizontal de hombro, una abducción y una rotación externa. Casi nada.</mutableString>
+                                <string key="text">Lo habitual es usar un agarre prono y una polea. Si lo haces de pie tendrás que inclinarte ligeramente hacia atrás (ángulo de 20 grados), si lo haces sentado y en polea baja tendrás que separarte de la polea lo suficiente para sentir el peso y que las placas no choquen entre sí al estirar los brazos en cada repetición.
+El movimiento comienza con los brazos estirados, codos próximos al torso y con la columna bien erguida.  Desde esta posición llevamos la polea hacia el cuello o hacia el rostro combinando una extensión horizontal de hombro, una abducción y una rotación externa. Casi nada.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1642,17 +1642,17 @@ El movimiento comienza con los brazos estirados, codos próximos al torso y con 
             <objects>
                 <viewController id="jTZ-KM-qbz" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1eC-rh-Itl">
-                        <rect key="frame" x="0.0" y="0.0" width="350" height="604"/>
+                        <rect key="frame" x="0.0" y="0.0" width="352" height="604"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4pe-f0-teG">
                                 <rect key="frame" x="31" y="126" width="289" height="260"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">Hacer la elevación lateral hasta que los brazos quedan paralelos al suelo trabaja la cabeza media del deltoide.
+                                <string key="text">Hacer la elevación lateral hasta que los brazos quedan paralelos al suelo trabaja la cabeza media del deltoide.
 Continuar el movimiento más arriba de la paralela asegura contracción máxima y aumenta el intervalo de recorrido, cosas que contribuyen a un desarrollo completo.
 Pero al subir por encima de este punto, se trabajan más los trapecios además de aumentar el riesgo de lesión y obligarte a reducir los pesos considerablemente.
-Aunque la preocupación por el pinzamiento de los rotadores es real,  podemos minimizarla de dos maneras.</mutableString>
+Aunque la preocupación por el pinzamiento de los rotadores es real,  podemos minimizarla de dos maneras.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1682,7 +1682,7 @@ Aunque la preocupación por el pinzamiento de los rotadores es real,  podemos mi
             <objects>
                 <viewController id="sW7-2G-HJi" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bYm-3e-Dhl">
-                        <rect key="frame" x="0.0" y="0.0" width="338" height="552"/>
+                        <rect key="frame" x="0.0" y="0.0" width="338" height="554"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Curl de bíceps con barra Z en banco " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fbd-uX-SrB">
@@ -1700,7 +1700,7 @@ Aunque la preocupación por el pinzamiento de los rotadores es real,  podemos mi
                                 <rect key="frame" x="24" y="76" width="293" height="303"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">Es un ejercicio  que destaca por su gran aislamiento y localización del bíceps  con respecto a otros ejercicios de este músculo , generando mayor posibilidad de obtener un crecimiento y desarrollo óptimo del bíceps.Sentado en el asiento del banco scott , apoyamos la parte posterior de los brazos en la superficie inclinada de la almohadilla de forma que en la parte superior queden ajustadas las axilas.Debes mantener la espalda recta y  hombros hacia atrás en todo momento.No movilizar los codos hacia los lados o hacia el frente, deben permanecer en un punto fijo en todo momento.Inspiramos y realizamos una flexión de brazos , contrayendo el bíceps hasta el punto de máxima tensión muscular.</mutableString>
+                                <string key="text">Es un ejercicio  que destaca por su gran aislamiento y localización del bíceps  con respecto a otros ejercicios de este músculo , generando mayor posibilidad de obtener un crecimiento y desarrollo óptimo del bíceps.Sentado en el asiento del banco scott , apoyamos la parte posterior de los brazos en la superficie inclinada de la almohadilla de forma que en la parte superior queden ajustadas las axilas.Debes mantener la espalda recta y  hombros hacia atrás en todo momento.No movilizar los codos hacia los lados o hacia el frente, deben permanecer en un punto fijo en todo momento.Inspiramos y realizamos una flexión de brazos , contrayendo el bíceps hasta el punto de máxima tensión muscular.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1719,7 +1719,7 @@ Aunque la preocupación por el pinzamiento de los rotadores es real,  podemos mi
             <objects>
                 <viewController id="fdr-SG-WlK" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="I0n-vh-G7w">
-                        <rect key="frame" x="0.0" y="0.0" width="338" height="552"/>
+                        <rect key="frame" x="0.0" y="0.0" width="338" height="554"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Curl con mancuernas en banco inclinado" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k5F-Tp-Rde">
@@ -1737,10 +1737,10 @@ Aunque la preocupación por el pinzamiento de los rotadores es real,  podemos mi
                                 <rect key="frame" x="30" y="84" width="280" height="334"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">Acostados boca arriba sobre un banco inclinado en angulo de 45. La espalda debe apoyarse contra el banco.
+                                <string key="text">Acostados boca arriba sobre un banco inclinado en angulo de 45. La espalda debe apoyarse contra el banco.
 Sujetad una mancuerna en cada mano, empleando agarre neutro, con los brazos extendidos y colgando directamente a los lados.
 Tomad aire y retenedlo mientras subís el peso hasta los hombros doblando los codos. Mantened los brazos fijos, sin llevarlos hacia delante.
-Para que los bíceps trabajen a tope, girad lentamente las muñecas cuando los antebrazos alcancen la paralela al suelo. Las palmas deben mirar hacia arriba en la posición final.</mutableString>
+Para que los bíceps trabajen a tope, girad lentamente las muñecas cuando los antebrazos alcancen la paralela al suelo. Las palmas deben mirar hacia arriba en la posición final.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1759,7 +1759,7 @@ Para que los bíceps trabajen a tope, girad lentamente las muñecas cuando los a
             <objects>
                 <viewController id="cww-if-mrG" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hWP-T3-chB">
-                        <rect key="frame" x="0.0" y="0.0" width="338" height="552"/>
+                        <rect key="frame" x="0.0" y="0.0" width="338" height="554"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Curl de martillo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fwt-PP-jq8">
@@ -1797,7 +1797,7 @@ Sin mover los brazos, dobla los codos y lleva las mancuernas hacia los hombros, 
             <objects>
                 <viewController id="eoO-SD-yUo" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8pT-bW-2vk">
-                        <rect key="frame" x="0.0" y="0.0" width="372" height="606"/>
+                        <rect key="frame" x="0.0" y="0.0" width="372" height="604"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Plancha isométrica" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SJh-rt-1RW">
@@ -1811,7 +1811,7 @@ Sin mover los brazos, dobla los codos y lleva las mancuernas hacia los hombros, 
                                 <rect key="frame" x="45" y="122" width="290" height="269"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">Espalda recta, core y glúteos firmes y aguantamos con el cuerpo como una tabla. Con series de 30 segundos es más que suficiente para una buena activación abdominal. Recuerda que tienes que sentir la tensión de tus abdominales en todo momento, no los relajamos hasta llegar a los 30 segundos o un minuto. La plancha isométrica es uno de los ejercicios más completos para toda tu zona abdominal.Puedes variar los distintos tipos de plancha probando también la plancha lateral para fortalecer y marcar los oblicuos y la zona lateral de los abdominales.</mutableString>
+                                <string key="text">Espalda recta, core y glúteos firmes y aguantamos con el cuerpo como una tabla. Con series de 30 segundos es más que suficiente para una buena activación abdominal. Recuerda que tienes que sentir la tensión de tus abdominales en todo momento, no los relajamos hasta llegar a los 30 segundos o un minuto. La plancha isométrica es uno de los ejercicios más completos para toda tu zona abdominal.Puedes variar los distintos tipos de plancha probando también la plancha lateral para fortalecer y marcar los oblicuos y la zona lateral de los abdominales.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1834,7 +1834,7 @@ Sin mover los brazos, dobla los codos y lleva las mancuernas hacia los hombros, 
             <objects>
                 <viewController id="Yed-DF-H4n" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gWd-w6-t9b">
-                        <rect key="frame" x="0.0" y="0.0" width="372" height="606"/>
+                        <rect key="frame" x="0.0" y="0.0" width="372" height="604"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Plancha lateral arriba y abajo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DIE-4H-6x4">
@@ -1871,7 +1871,7 @@ Sin mover los brazos, dobla los codos y lleva las mancuernas hacia los hombros, 
             <objects>
                 <viewController id="FxI-aJ-8JC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zbF-pc-vFF">
-                        <rect key="frame" x="0.0" y="0.0" width="372" height="606"/>
+                        <rect key="frame" x="0.0" y="0.0" width="372" height="604"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cable crunch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kdh-C1-4gD">
@@ -1908,7 +1908,7 @@ Sin mover los brazos, dobla los codos y lleva las mancuernas hacia los hombros, 
             <objects>
                 <viewController id="Uqi-M3-wjC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DRN-x9-0Ec">
-                        <rect key="frame" x="0.0" y="0.0" width="341" height="589"/>
+                        <rect key="frame" x="0.0" y="0.0" width="340" height="591"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Zancadas alternas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UoN-ep-hfN">
@@ -1945,7 +1945,7 @@ Sin mover los brazos, dobla los codos y lleva las mancuernas hacia los hombros, 
             <objects>
                 <viewController id="VCK-lZ-2rQ" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7hb-o7-1Kc">
-                        <rect key="frame" x="0.0" y="0.0" width="341" height="589"/>
+                        <rect key="frame" x="0.0" y="0.0" width="340" height="591"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sentadilla Hack" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oFv-Jd-aFJ">
@@ -1963,8 +1963,8 @@ Sin mover los brazos, dobla los codos y lleva las mancuernas hacia los hombros, 
                                 <rect key="frame" x="33" y="92" width="277" height="337"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">La Sentadilla Hack o Hack Squat es una variante de la sentadilla con barra, en el cuál se realiza en una máquina con discos, con la espalda apoyada, tiene gran incidencia en la estimulación de los cuádriceps y los glúteos, como principal musculatura involucrada, con ello, en este artículo hablaremos de los antecedentes históricos, cómo realizarla y programarla.
-La sentadilla es uno de los ejercicios más efectivos para fortalecer los músculos de las piernas y glúteos. Sin embargo, muchas personas se enfrentan a desafíos a la hora de realizar esta actividad de manera efectiva y eficiente. Para ayudar a superar estos obstáculos, se ha desarrollado una técnica conocida como sentadillas Hack.</mutableString>
+                                <string key="text">La Sentadilla Hack o Hack Squat es una variante de la sentadilla con barra, en el cuál se realiza en una máquina con discos, con la espalda apoyada, tiene gran incidencia en la estimulación de los cuádriceps y los glúteos, como principal musculatura involucrada, con ello, en este artículo hablaremos de los antecedentes históricos, cómo realizarla y programarla.
+La sentadilla es uno de los ejercicios más efectivos para fortalecer los músculos de las piernas y glúteos. Sin embargo, muchas personas se enfrentan a desafíos a la hora de realizar esta actividad de manera efectiva y eficiente. Para ayudar a superar estos obstáculos, se ha desarrollado una técnica conocida como sentadillas Hack.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1983,7 +1983,7 @@ La sentadilla es uno de los ejercicios más efectivos para fortalecer los múscu
             <objects>
                 <viewController id="c13-tP-7Gg" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZzH-K5-eLK">
-                        <rect key="frame" x="0.0" y="0.0" width="341" height="589"/>
+                        <rect key="frame" x="0.0" y="0.0" width="340" height="591"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sentadilla con barra" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="byE-cd-mYJ">
@@ -1997,7 +1997,7 @@ La sentadilla es uno de los ejercicios más efectivos para fortalecer los múscu
                                 <rect key="frame" x="50" y="95" width="240" height="300.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">La sentadillas son estupendas, porque actúan como elementos activadores del metabolismo. Esto significa que este último se ve obligado a compensar el ejercicio segregando hormonas del crecimiento en tu organismo, las cuales ayudan al desarrollo muscular en todo tu cuerpo.De pie, apoya la barra en los hombros. Los pies deben mantenerse separados a la distancia del ancho de los hombros. Flexiona lentamente las rodillas hasta que los muslos y el gemelo formen más o menos un ángulo de 90º. Estira las piernas para regresar a la posición inicial.</mutableString>
+                                <string key="text">La sentadillas son estupendas, porque actúan como elementos activadores del metabolismo. Esto significa que este último se ve obligado a compensar el ejercicio segregando hormonas del crecimiento en tu organismo, las cuales ayudan al desarrollo muscular en todo tu cuerpo.De pie, apoya la barra en los hombros. Los pies deben mantenerse separados a la distancia del ancho de los hombros. Flexiona lentamente las rodillas hasta que los muslos y el gemelo formen más o menos un ángulo de 90º. Estira las piernas para regresar a la posición inicial.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -2020,14 +2020,14 @@ La sentadilla es uno de los ejercicios más efectivos para fortalecer los múscu
             <objects>
                 <viewController id="Hox-E8-g43" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fzH-1e-9JI">
-                        <rect key="frame" x="0.0" y="0.0" width="341" height="589"/>
+                        <rect key="frame" x="0.0" y="0.0" width="340" height="591"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="MPw-Ky-XjU">
                                 <rect key="frame" x="27" y="79" width="289" height="338"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">Para comenzar el ejercicio de extensión de piernas en máquina debemos sentarnos en la máquina específica para tal fin y colocar los pies debajo de las almohadillas o rodillos acolchados, de manera tal que las rodillas queden alineadas con la articulación de la máquina.Colocamos las manos agarrando el asiento o los brazos del sillon para estabilizar el tronco y nos sentamos de manera tal que la espalda y las caderas queden perfectamente apoyadas sobre el respaldo de la máquina. Previamente debemos cargar la máquina con el peso elegido y una vez en esta posición, debemos inspirar y realizar una extensión de rodilla de manera de levantar el peso con las piernas hasta que éstas queden horizontales y paralelas al piso, el torso debe permanecer inmóvil y erguido.</mutableString>
+                                <string key="text">Para comenzar el ejercicio de extensión de piernas en máquina debemos sentarnos en la máquina específica para tal fin y colocar los pies debajo de las almohadillas o rodillos acolchados, de manera tal que las rodillas queden alineadas con la articulación de la máquina.Colocamos las manos agarrando el asiento o los brazos del sillon para estabilizar el tronco y nos sentamos de manera tal que la espalda y las caderas queden perfectamente apoyadas sobre el respaldo de la máquina. Previamente debemos cargar la máquina con el peso elegido y una vez en esta posición, debemos inspirar y realizar una extensión de rodilla de manera de levantar el peso con las piernas hasta que éstas queden horizontales y paralelas al piso, el torso debe permanecer inmóvil y erguido.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -2057,15 +2057,15 @@ La sentadilla es uno de los ejercicios más efectivos para fortalecer los múscu
             <objects>
                 <viewController id="I5E-fM-FFL" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Blk-Yl-BZ6">
-                        <rect key="frame" x="0.0" y="0.0" width="352" height="594"/>
+                        <rect key="frame" x="0.0" y="0.0" width="351" height="593"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="as3-JN-0MJ">
                                 <rect key="frame" x="37" y="95" width="278" height="300"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">Lo primero es colocar en la máquina el peso que deseamos levantar. Debes posar ambos pies sobre la plataforma y colocar los hombros bajo las almohadillas forradas de la máquina y, tomar con ambas manos la parte superior de esta. Para iniciar el ejercicio debes tener las rodillas levemente flexionadas para comenzar el movimiento.
-El peso debe reposar sobre tus hombros al elevar los talones y empujar tu cuerpo hacia arriba con los pies. La espalda debe permanecer siempre recta mientras tu cuerpo sube y baja por la elevación de los pies y la extensión de las piernas.</mutableString>
+                                <string key="text">Lo primero es colocar en la máquina el peso que deseamos levantar. Debes posar ambos pies sobre la plataforma y colocar los hombros bajo las almohadillas forradas de la máquina y, tomar con ambas manos la parte superior de esta. Para iniciar el ejercicio debes tener las rodillas levemente flexionadas para comenzar el movimiento.
+El peso debe reposar sobre tus hombros al elevar los talones y empujar tu cuerpo hacia arriba con los pies. La espalda debe permanecer siempre recta mientras tu cuerpo sube y baja por la elevación de los pies y la extensión de las piernas.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -2095,7 +2095,7 @@ El peso debe reposar sobre tus hombros al elevar los talones y empujar tu cuerpo
             <objects>
                 <viewController id="rr4-ji-QOq" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6L8-3n-z4z">
-                        <rect key="frame" x="0.0" y="0.0" width="352" height="594"/>
+                        <rect key="frame" x="0.0" y="0.0" width="351" height="593"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Elevacion de Gemelos Sentado" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="72x-Sb-nAw">
@@ -2109,9 +2109,9 @@ El peso debe reposar sobre tus hombros al elevar los talones y empujar tu cuerpo
                                 <rect key="frame" x="36" y="103" width="284" height="325"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">Siempre siéntate con las rodillas dobladas en ángulo recto (90º), no busques ningún otro tipo de posición rara.
+                                <string key="text">Siempre siéntate con las rodillas dobladas en ángulo recto (90º), no busques ningún otro tipo de posición rara.
 Siempre utiliza un rango de movimiento máximo en el ejercicio para permitir que los talones caigan lo más lejos posible y luego puedan elevarse lo más alto posible, de este modo aumentamos el recorrido y el tiempo bajo tensión lo que deriva en un mejor desarrollo muscular.
-Nunca rebotes en la posición más baja para luego comenzar más fácilmente el movimiento hacia arriba. Corres graves riesgos de lesión. Haz una pausa de un segundo en la parte inferior y en la parte superior de cada repetición. Esto asegurará un buen estiramiento y evitará cualquier rebote o trampa.</mutableString>
+Nunca rebotes en la posición más baja para luego comenzar más fácilmente el movimiento hacia arriba. Corres graves riesgos de lesión. Haz una pausa de un segundo en la parte inferior y en la parte superior de cada repetición. Esto asegurará un buen estiramiento y evitará cualquier rebote o trampa.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -2134,7 +2134,7 @@ Nunca rebotes en la posición más baja para luego comenzar más fácilmente el 
             <objects>
                 <viewController id="EUf-3d-pe3" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hO8-mc-kE9">
-                        <rect key="frame" x="0.0" y="0.0" width="344" height="587"/>
+                        <rect key="frame" x="0.0" y="0.0" width="343" height="588"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Antebrazo con cuerda" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XqT-5a-asR">
@@ -2171,7 +2171,7 @@ Nunca rebotes en la posición más baja para luego comenzar más fácilmente el 
             <objects>
                 <viewController id="3jS-cZ-Sc4" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7DT-bR-FwP">
-                        <rect key="frame" x="0.0" y="0.0" width="344" height="587"/>
+                        <rect key="frame" x="0.0" y="0.0" width="343" height="588"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Curl de antebrazo con barra en banco" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MVW-7D-N3x">
@@ -2185,11 +2185,11 @@ Nunca rebotes en la posición más baja para luego comenzar más fácilmente el 
                                 <rect key="frame" x="28" y="103" width="288" height="320"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">De rodillas apoyando los brazos en un banco, flexionamos las muñecas arriba y abajo. Puedes ejecutarlo en pronación o supinación y siempre controlando el peso que vamos a mover para evitar lesiones inoportunas.Colocaremos una barra sobre un lado de un banco plano y nos arrodillamos con ambas rodillas para que el cuerpo se enfrente al banco plano. Usaremos ambos brazos para agarrar una barra con un agarre en supinación (palmas hacia arriba) y apoyaremos los antebrazos contra el banco plano. Las muñecas deben estar colgando sobre el borde.
+                                <string key="text">De rodillas apoyando los brazos en un banco, flexionamos las muñecas arriba y abajo. Puedes ejecutarlo en pronación o supinación y siempre controlando el peso que vamos a mover para evitar lesiones inoportunas.Colocaremos una barra sobre un lado de un banco plano y nos arrodillamos con ambas rodillas para que el cuerpo se enfrente al banco plano. Usaremos ambos brazos para agarrar una barra con un agarre en supinación (palmas hacia arriba) y apoyaremos los antebrazos contra el banco plano. Las muñecas deben estar colgando sobre el borde.
 Doblamos las muñecas hacia abajo mientras exhalamos.
 Subiremos lentamente las muñecas hacia la posición inicial mientras inhalamos. 
 
-</mutableString>
+</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -2212,7 +2212,7 @@ Subiremos lentamente las muñecas hacia la posición inicial mientras inhalamos.
             <objects>
                 <viewController id="eLB-uL-NCl" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XHZ-r6-l14">
-                        <rect key="frame" x="0.0" y="0.0" width="344" height="587"/>
+                        <rect key="frame" x="0.0" y="0.0" width="343" height="588"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Flexiones de muñeca" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D1r-gU-2uy">
@@ -2226,7 +2226,7 @@ Subiremos lentamente las muñecas hacia la posición inicial mientras inhalamos.
                                 <rect key="frame" x="26" y="89" width="292" height="292"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">Sentado en un banco con una mancuerna, apoyamos el brazo en el muslo con la palma hacia arriba y flexionamos la muñeca arriba y abajo ralentizando el movimiento tanto como podamos. También se puede realizar con la palma hacia abajo, pero con mucho menos peso para no hacerte daño con cada repetición. Busca más peso con el primer movimiento, y menos y más repeticiones con el segundo.Este ejercicio siempre recomendamos hacerlo en conjunto con el siguiente de esta lista. Es decir, comenzamos con unas series de curl de muñecas con mancuerna palmas abajo (agarre prono) y seguimos con el curl con mancuerna palmas arriba (supino).</mutableString>
+                                <string key="text">Sentado en un banco con una mancuerna, apoyamos el brazo en el muslo con la palma hacia arriba y flexionamos la muñeca arriba y abajo ralentizando el movimiento tanto como podamos. También se puede realizar con la palma hacia abajo, pero con mucho menos peso para no hacerte daño con cada repetición. Busca más peso con el primer movimiento, y menos y más repeticiones con el segundo.Este ejercicio siempre recomendamos hacerlo en conjunto con el siguiente de esta lista. Es decir, comenzamos con unas series de curl de muñecas con mancuerna palmas abajo (agarre prono) y seguimos con el curl con mancuerna palmas arriba (supino).</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -2249,7 +2249,7 @@ Subiremos lentamente las muñecas hacia la posición inicial mientras inhalamos.
             <objects>
                 <viewController id="GLD-tk-s7L" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LwT-vE-RJZ">
-                        <rect key="frame" x="0.0" y="0.0" width="337" height="615"/>
+                        <rect key="frame" x="0.0" y="0.0" width="338" height="613"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fondos de tríceps" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ftN-ze-BLJ">
@@ -2281,14 +2281,14 @@ Un error muy común es no hacer el rango completo del movimiento y no bajar del 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="47J-TU-Cwb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1940" y="3712"/>
+            <point key="canvasLocation" x="2613" y="3846"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="dWj-7o-aEj">
             <objects>
                 <viewController id="qUi-mg-xWX" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eUV-vg-Z8j">
-                        <rect key="frame" x="0.0" y="0.0" width="337" height="615"/>
+                        <rect key="frame" x="0.0" y="0.0" width="338" height="613"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tríceps en polea superior con cuerda" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wiK-P2-mzm">
@@ -2318,14 +2318,14 @@ Un error muy común es no hacer el rango completo del movimiento y no bajar del 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pgn-Rv-soP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3175" y="3678"/>
+            <point key="canvasLocation" x="3848" y="3812"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ieA-zh-WXC">
             <objects>
                 <viewController id="FUo-06-8CW" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3II-HV-Scv">
-                        <rect key="frame" x="0.0" y="0.0" width="337" height="615"/>
+                        <rect key="frame" x="0.0" y="0.0" width="338" height="613"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Press Francés" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C0V-5u-yAC">
@@ -2355,7 +2355,7 @@ Un error muy común es no hacer el rango completo del movimiento y no bajar del 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MZJ-hL-Go0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2554" y="4214"/>
+            <point key="canvasLocation" x="3228" y="4348"/>
         </scene>
     </scenes>
     <resources>
