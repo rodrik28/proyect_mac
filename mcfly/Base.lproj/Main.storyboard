@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -17,13 +18,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bienvenido" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C16-Hh-Zxi">
-                                <rect key="frame" x="38" y="134" width="347" height="64.5"/>
+                                <rect key="frame" x="38" y="138" width="347" height="64.5"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="59"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Le6-T8-QFU">
-                                <rect key="frame" x="38" y="241.5" width="347" height="32"/>
+                                <rect key="frame" x="38" y="245.5" width="347" height="32"/>
                                 <segments>
                                     <segment title="Logeo"/>
                                     <segment title="Registro"/>
@@ -33,7 +34,7 @@
                                 </connections>
                             </segmentedControl>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CxS-zi-zXC">
-                                <rect key="frame" x="16" y="282.5" width="382" height="300"/>
+                                <rect key="frame" x="16" y="286.5" width="382" height="300"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="300" id="fv1-jo-Vh8"/>
                                 </constraints>
@@ -42,7 +43,7 @@
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eXa-NJ-q6I">
-                                <rect key="frame" x="16" y="282.5" width="382" height="301"/>
+                                <rect key="frame" x="16" y="286.5" width="382" height="301"/>
                                 <connections>
                                     <segue destination="rMJ-jM-uPO" kind="embed" id="Sn4-0u-gZ0"/>
                                 </connections>
@@ -53,14 +54,26 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                 <connections>
-                                    <segue destination="mT9-Kj-gqA" kind="show" id="zMK-hT-1DA"/>
+                                    <segue destination="mT9-Kj-gqA" kind="show" id="zFd-Vk-PGE"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bak-VE-fg9">
-                                <rect key="frame" x="151" y="68" width="67" height="31"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mj4-40-Sxx">
+                                <rect key="frame" x="84" y="757" width="58" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Yefer"/>
+                                <connections>
+                                    <segue destination="hRr-d2-04K" kind="show" id="AG8-oB-Spj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EAx-qT-G2W">
+                                <rect key="frame" x="123" y="70" width="44" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Bill"/>
+                                <connections>
+                                    <segue destination="NlB-8I-cs1" kind="show" id="BmF-V2-xEU"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -156,7 +169,7 @@
             <objects>
                 <viewController id="mT9-Kj-gqA" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4SZ-PA-FcY">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="838"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="G38-oo-ZF9"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -172,7 +185,7 @@
             <objects>
                 <viewController id="NlB-8I-cs1" customClass="UserDetailViewController" customModule="mcfly" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VMg-uM-34v">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="838"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Doc-bO-Aag">
@@ -253,7 +266,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KvR-Dv-blD">
-                                <rect key="frame" x="19" y="467" width="373" height="184"/>
+                                <rect key="frame" x="15" y="401" width="368" height="182"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="Qag-0o-G3R" kind="embed" id="Uub-Cw-ocf"/>
@@ -297,7 +310,7 @@
                                 </connections>
                             </segmentedControl>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e2h-Dp-dvO">
-                                <rect key="frame" x="19" y="467" width="373" height="184"/>
+                                <rect key="frame" x="15" y="401" width="368" height="182"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="hlw-Mj-1la" kind="embed" id="MKu-tN-IIR"/>
@@ -319,67 +332,211 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oll-u8-Fhp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="302.89855072463769" y="-1223.4375"/>
+            <point key="canvasLocation" x="732" y="-1210"/>
         </scene>
-        <!--View Controller-->
+        <!--Espalda View Controller-->
         <scene sceneID="9Ck-ji-iRV">
             <objects>
-                <viewController id="Lyd-zz-Isz" sceneMemberID="viewController">
+                <viewController id="Lyd-zz-Isz" customClass="EspaldaViewController" customModule="mcfly" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Xjr-1o-AAv">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="838"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="xve-g0-u3I">
+                                <rect key="frame" x="40" y="82" width="335" height="32"/>
+                                <segments>
+                                    <segment title="ejercicio 1"/>
+                                    <segment title="ejercicio 2"/>
+                                    <segment title="ejercicio 3"/>
+                                    <segment title="ejercicio 4"/>
+                                </segments>
+                            </segmentedControl>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SJZ-XJ-9Gy">
+                                <rect key="frame" x="38" y="148" width="331" height="608"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="p2U-Vy-LsV" kind="embed" id="lXg-2H-qcf"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uFx-Y0-HCc">
+                                <rect key="frame" x="38" y="148" width="331" height="608"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="0Ap-LE-Inl" kind="embed" id="faz-Zo-org"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lVj-BM-XfX">
+                                <rect key="frame" x="38" y="148" width="331" height="608"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="gmv-KU-Adg" kind="embed" id="LAg-w1-f9g"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ghE-GJ-zBA">
+                                <rect key="frame" x="38" y="148" width="331" height="608"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="UBb-hk-30u" kind="embed" id="d9Y-xa-0Zh"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Lcb-WJ-tL8"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Lcb-WJ-tL8" firstAttribute="trailing" secondItem="xve-g0-u3I" secondAttribute="trailing" constant="39" id="13S-Ck-m8U"/>
+                            <constraint firstItem="xve-g0-u3I" firstAttribute="top" secondItem="Lcb-WJ-tL8" secondAttribute="top" constant="34" id="7un-rV-QHV"/>
+                            <constraint firstItem="xve-g0-u3I" firstAttribute="leading" secondItem="Lcb-WJ-tL8" secondAttribute="leading" constant="40" id="maA-KK-6av"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="aev-jb-30o"/>
+                    <connections>
+                        <outlet property="SegmentOutlet" destination="xve-g0-u3I" id="gKv-bI-PZY"/>
+                        <outlet property="ejercicio1SegmentView" destination="SJZ-XJ-9Gy" id="bqX-kz-uqP"/>
+                        <outlet property="ejercicio2SegmentView" destination="uFx-Y0-HCc" id="m0r-np-YX1"/>
+                        <outlet property="ejercicio3SegmentView" destination="lVj-BM-XfX" id="h3I-oq-tb2"/>
+                        <outlet property="ejercicio4SegmentView" destination="ghE-GJ-zBA" id="nZ6-kW-TJl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nwo-u0-WZF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2254" y="-654"/>
+            <point key="canvasLocation" x="2669.5652173913045" y="1387.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Pecho View Controller-->
         <scene sceneID="Qgf-Z3-cdN">
             <objects>
-                <viewController id="wUN-MG-FyB" sceneMemberID="viewController">
+                <viewController id="wUN-MG-FyB" customClass="PechoViewController" customModule="mcfly" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="phD-Ad-MNv">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="838"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="AUA-NV-k6J">
+                                <rect key="frame" x="36" y="82" width="343" height="32"/>
+                                <segments>
+                                    <segment title="ejercicio 1"/>
+                                    <segment title="ejercicio 2"/>
+                                    <segment title="ejercicio 3"/>
+                                    <segment title="ejercicio 4"/>
+                                </segments>
+                            </segmentedControl>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sfD-yL-lSQ">
+                                <rect key="frame" x="31" y="166" width="343" height="579"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="X8H-5f-0Iq" kind="embed" id="6PP-Wd-IbF"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4e2-xl-uqN">
+                                <rect key="frame" x="31" y="166" width="343" height="579"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="bJi-fu-2ff" kind="embed" id="Gl9-Jm-UzY"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jHX-Sn-em7">
+                                <rect key="frame" x="31" y="166" width="343" height="579"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="QMK-2p-4jN" kind="embed" id="hcS-fI-AhD"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k1T-zy-l5e">
+                                <rect key="frame" x="31" y="166" width="343" height="579"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="ddz-xs-9YE" kind="embed" id="Isr-md-Nd9"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="17S-uD-8Ff"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="AUA-NV-k6J" firstAttribute="top" secondItem="17S-uD-8Ff" secondAttribute="top" constant="34" id="CZI-Mh-Dd3"/>
+                            <constraint firstItem="17S-uD-8Ff" firstAttribute="trailing" secondItem="AUA-NV-k6J" secondAttribute="trailing" constant="35" id="HPv-D3-Z0G"/>
+                            <constraint firstItem="AUA-NV-k6J" firstAttribute="leading" secondItem="17S-uD-8Ff" secondAttribute="leading" constant="36" id="VWl-HJ-AeU"/>
+                            <constraint firstItem="AUA-NV-k6J" firstAttribute="top" secondItem="17S-uD-8Ff" secondAttribute="top" constant="34" id="bJK-Ot-zxQ"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="8I3-UC-CX8"/>
+                    <connections>
+                        <outlet property="SegmentOutlet" destination="AUA-NV-k6J" id="QLb-e9-EQ8"/>
+                        <outlet property="ejercicio1SegmentView" destination="sfD-yL-lSQ" id="Vo1-A0-L3w"/>
+                        <outlet property="ejercicio2SegmentView" destination="4e2-xl-uqN" id="66G-f6-ABy"/>
+                        <outlet property="ejercicio3SegmentView" destination="jHX-Sn-em7" id="LW6-R6-iKR"/>
+                        <outlet property="ejercicio4SegmentView" destination="k1T-zy-l5e" id="Sw1-kh-pq3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ube-7d-rYU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3001" y="-654"/>
+            <point key="canvasLocation" x="5242.0289855072469" y="1223.4375"/>
         </scene>
-        <!--View Controller-->
+        <!--Hombro View Controller-->
         <scene sceneID="0i0-Js-ZIG">
             <objects>
-                <viewController id="Uvg-Qo-508" sceneMemberID="viewController">
+                <viewController id="Uvg-Qo-508" customClass="HombroViewController" customModule="mcfly" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FPd-J6-yJU">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="838"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="EhY-ec-jtN">
+                                <rect key="frame" x="84" y="82" width="250" height="32"/>
+                                <segments>
+                                    <segment title="ejercicio 1"/>
+                                    <segment title="ejercicio 2"/>
+                                    <segment title="ejericio 3"/>
+                                </segments>
+                            </segmentedControl>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="69G-xp-VSv">
+                                <rect key="frame" x="32" y="148" width="352" height="604"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="QcE-9p-id1" kind="embed" id="N4d-HM-iTB"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LBc-WB-npI">
+                                <rect key="frame" x="32" y="148" width="352" height="604"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="EFf-8O-cgP" kind="embed" id="P4c-GP-1fv"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QMe-MD-Of6">
+                                <rect key="frame" x="32" y="148" width="352" height="604"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="jTZ-KM-qbz" kind="embed" id="box-uz-Reb"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Uhn-7Q-geJ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Uhn-7Q-geJ" firstAttribute="trailing" secondItem="EhY-ec-jtN" secondAttribute="trailing" constant="80" id="BZZ-tn-4qf"/>
+                            <constraint firstItem="EhY-ec-jtN" firstAttribute="leading" secondItem="Uhn-7Q-geJ" secondAttribute="leading" constant="84" id="OwH-sj-MqG"/>
+                            <constraint firstItem="EhY-ec-jtN" firstAttribute="top" secondItem="Uhn-7Q-geJ" secondAttribute="top" constant="34" id="dhZ-Rj-Jbf"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="LPh-Ku-4aO"/>
+                    <connections>
+                        <outlet property="SegmentOutlet" destination="EhY-ec-jtN" id="Ej7-yQ-ZIn"/>
+                        <outlet property="ejercicio1SegmentView" destination="69G-xp-VSv" id="JiM-s3-EAK"/>
+                        <outlet property="ejercicio2SegmentView" destination="LBc-WB-npI" id="qfD-u7-He0"/>
+                        <outlet property="ejercicio3SegmentView" destination="QMe-MD-Of6" id="Ucl-pg-2pa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SAt-BH-jOQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3709" y="-654"/>
+            <point key="canvasLocation" x="7693" y="1323"/>
         </scene>
-        <!--View Controller-->
+        <!--Item-->
         <scene sceneID="ivn-9V-zCe">
             <objects>
                 <viewController id="exd-6T-vlg" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zH2-fL-x3Z">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="838"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Parte-musculos" translatesAutoresizingMaskIntoConstraints="NO" id="e9s-Lc-MCd">
-                                <rect key="frame" x="-149" y="80" width="703" height="733"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Parte-musculos" translatesAutoresizingMaskIntoConstraints="NO" id="e9s-Lc-MCd">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="838"/>
                                 <color key="tintColor" systemColor="secondarySystemBackgroundColor"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9l6-Nb-DVY">
@@ -392,16 +549,6 @@
                                     <segue destination="iXI-5u-1e3" kind="show" id="Mds-kJ-RoV"/>
                                 </connections>
                             </button>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nc6-0x-fSj">
-                                <rect key="frame" x="0.0" y="813" width="434" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem systemItem="favorites" id="Huh-E7-3xJ"/>
-                                    <tabBarItem systemItem="contacts" id="yce-KP-tPe"/>
-                                </items>
-                                <color key="barTintColor" red="0.00092189299252457707" green="0.091985577093720627" blue="0.21526102459437824" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </tabBar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WKU-bN-XKe">
                                 <rect key="frame" x="65" y="274" width="80" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -472,15 +619,6 @@
                                     <segue destination="Xrp-To-a1e" kind="show" id="qzD-VH-ev4"/>
                                 </connections>
                             </button>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TJe-8b-ZKx">
-                                <rect key="frame" x="0.0" y="36" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <items>
-                                    <navigationItem title="Title" id="13q-Bl-2dX">
-                                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="reply" id="jxy-H2-vI8"/>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l2T-eL-p57">
                                 <rect key="frame" x="250" y="182" width="95" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -494,107 +632,363 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="mhV-0T-7kk"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="e9s-Lc-MCd" firstAttribute="leading" secondItem="zH2-fL-x3Z" secondAttribute="leading" id="C3u-2z-dY4"/>
+                            <constraint firstItem="e9s-Lc-MCd" firstAttribute="top" secondItem="mhV-0T-7kk" secondAttribute="top" id="ItP-R8-Qfe"/>
+                            <constraint firstAttribute="trailing" secondItem="e9s-Lc-MCd" secondAttribute="trailing" id="JeV-jL-UEL"/>
+                            <constraint firstAttribute="bottom" secondItem="e9s-Lc-MCd" secondAttribute="bottom" id="ify-aL-0p8"/>
+                        </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="U85-FZ-0nh"/>
+                    <navigationItem key="navigationItem" id="pRD-yu-oVn"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hh2-oc-DmV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3379.7101449275365" y="97.767857142857139"/>
+            <point key="canvasLocation" x="3543" y="2308"/>
         </scene>
-        <!--View Controller-->
+        <!--Tricep View Controller-->
         <scene sceneID="fS1-Of-Dd0">
             <objects>
-                <viewController id="tBJ-fc-lBe" sceneMemberID="viewController">
+                <viewController id="tBJ-fc-lBe" customClass="TricepViewController" customModule="mcfly" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PDc-2i-Lyd">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="838"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="cPE-BT-14R">
+                                <rect key="frame" x="66" y="48" width="282" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="ejercicio 1"/>
+                                    <segment title="ejercicio 2"/>
+                                    <segment title="ejercicio 3"/>
+                                </segments>
+                            </segmentedControl>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GW4-tX-iLB">
+                                <rect key="frame" x="38" y="134" width="338" height="613"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="GLD-tk-s7L" kind="embed" id="Qd2-Hf-bZ6"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Dn-ze-Heb">
+                                <rect key="frame" x="38" y="134" width="338" height="613"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="qUi-mg-xWX" kind="embed" id="ePQ-aJ-QVS"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WfI-Eh-BQY">
+                                <rect key="frame" x="38" y="134" width="338" height="613"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="FUo-06-8CW" kind="embed" id="G4m-JV-7Xq"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="l8r-hL-qIL"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="cGh-lb-ds3"/>
+                    <connections>
+                        <outlet property="SegmentOutlet" destination="cPE-BT-14R" id="pWG-OY-l4K"/>
+                        <outlet property="ejercicio1SegmentView" destination="GW4-tX-iLB" id="RXZ-4H-DeY"/>
+                        <outlet property="ejercicio2SegmentView" destination="2Dn-ze-Heb" id="feR-3R-BDE"/>
+                        <outlet property="ejercicio3SegmentView" destination="WfI-Eh-BQY" id="XFd-Zt-OPr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p2W-nl-z0H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2391" y="775"/>
+            <point key="canvasLocation" x="3228" y="3752"/>
         </scene>
-        <!--View Controller-->
+        <!--Antebrazo View Controller-->
         <scene sceneID="Op2-8R-tD7">
             <objects>
-                <viewController id="9kE-py-TWN" sceneMemberID="viewController">
+                <viewController id="9kE-py-TWN" customClass="AntebrazoViewController" customModule="mcfly" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8qm-0R-K7Y">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="838"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="CyJ-l9-zyU">
+                                <rect key="frame" x="84" y="82" width="247" height="32"/>
+                                <segments>
+                                    <segment title="ejercicio 1"/>
+                                    <segment title="ejercicio 2"/>
+                                    <segment title="ejercicio 3"/>
+                                </segments>
+                            </segmentedControl>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tVT-wq-Twy">
+                                <rect key="frame" x="33" y="166" width="343" height="588"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="EUf-3d-pe3" kind="embed" id="DKi-Xl-YWi"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ro8-aH-HWa">
+                                <rect key="frame" x="33" y="166" width="343" height="588"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="3jS-cZ-Sc4" kind="embed" id="znn-I6-0jC"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="q2J-kD-ran">
+                                <rect key="frame" x="33" y="166" width="343" height="588"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="eLB-uL-NCl" kind="embed" id="m5b-Xc-jGe"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Jqo-xa-zLq"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Jqo-xa-zLq" firstAttribute="trailing" secondItem="CyJ-l9-zyU" secondAttribute="trailing" constant="83" id="3HY-4F-vuT"/>
+                            <constraint firstItem="CyJ-l9-zyU" firstAttribute="leading" secondItem="Jqo-xa-zLq" secondAttribute="leading" constant="84" id="YBC-37-qra"/>
+                            <constraint firstItem="CyJ-l9-zyU" firstAttribute="top" secondItem="Jqo-xa-zLq" secondAttribute="top" constant="34" id="iI8-3h-e0V"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="N8S-zT-BEx"/>
+                    <connections>
+                        <outlet property="SegmentOutlet" destination="CyJ-l9-zyU" id="RDl-Oh-hty"/>
+                        <outlet property="ejercicio1SegmentView" destination="tVT-wq-Twy" id="baB-nW-V1F"/>
+                        <outlet property="ejercicio2SegmentView" destination="Ro8-aH-HWa" id="quE-8a-cAU"/>
+                        <outlet property="ejercicio3SegmentView" destination="q2J-kD-ran" id="j2A-Qv-A0G"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1EJ-CH-UTa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3219" y="791"/>
+            <point key="canvasLocation" x="5302.898550724638" y="4324.5535714285716"/>
         </scene>
-        <!--View Controller-->
+        <!--Pantorrilla View Controller-->
         <scene sceneID="hCM-Ph-e6O">
             <objects>
-                <viewController id="Xrp-To-a1e" sceneMemberID="viewController">
+                <viewController id="Xrp-To-a1e" customClass="PantorrillaViewController" customModule="mcfly" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dUO-z8-Ywu">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="838"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="A7l-UP-72z">
+                                <rect key="frame" x="121" y="82" width="172" height="32"/>
+                                <segments>
+                                    <segment title="ejercicio 1"/>
+                                    <segment title="ejercicio 2"/>
+                                </segments>
+                            </segmentedControl>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oLL-W6-eFl">
+                                <rect key="frame" x="28" y="167" width="351" height="593"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="I5E-fM-FFL" kind="embed" id="RvF-Dc-ti3"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YP7-Dc-XDB">
+                                <rect key="frame" x="28" y="167" width="351" height="593"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="rr4-ji-QOq" kind="embed" id="g9f-MP-Ox9"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="vpe-D6-srU"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="A7l-UP-72z" firstAttribute="leading" secondItem="vpe-D6-srU" secondAttribute="leading" constant="121" id="851-c5-P1B"/>
+                            <constraint firstItem="A7l-UP-72z" firstAttribute="top" secondItem="vpe-D6-srU" secondAttribute="top" constant="34" id="JIa-32-i2J"/>
+                            <constraint firstItem="vpe-D6-srU" firstAttribute="trailing" secondItem="A7l-UP-72z" secondAttribute="trailing" constant="121" id="elB-pw-qZZ"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="qhR-3z-Hdf"/>
+                    <connections>
+                        <outlet property="SegmentOutlet" destination="A7l-UP-72z" id="bzd-Rd-0SM"/>
+                        <outlet property="ejercicio1SegmentView" destination="oLL-W6-eFl" id="fEW-4I-ty5"/>
+                        <outlet property="ejercicio2SegmentView" destination="YP7-Dc-XDB" id="4Kt-zf-BF7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k85-gB-rNN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3994" y="791"/>
+            <point key="canvasLocation" x="5240.579710144928" y="3204.9107142857142"/>
         </scene>
-        <!--View Controller-->
+        <!--Bicep View Controller-->
         <scene sceneID="nms-my-F5g">
             <objects>
-                <viewController id="iXI-5u-1e3" sceneMemberID="viewController">
+                <viewController id="iXI-5u-1e3" customClass="BicepViewController" customModule="mcfly" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bGb-mV-BGf">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="838"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="ty7-Sx-Ae7">
+                                <rect key="frame" x="80" y="82" width="254" height="32"/>
+                                <segments>
+                                    <segment title="ejercicio 1"/>
+                                    <segment title="ejercicio 2"/>
+                                    <segment title="ejercicio 3"/>
+                                </segments>
+                            </segmentedControl>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jd9-A8-zGu">
+                                <rect key="frame" x="36" y="174" width="338" height="554"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="sW7-2G-HJi" kind="embed" id="Z2x-7q-LPK"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eZs-h3-EUY">
+                                <rect key="frame" x="36" y="174" width="338" height="554"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="fdr-SG-WlK" kind="embed" id="qF8-qg-b5S"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ch3-G4-bwu">
+                                <rect key="frame" x="36" y="174" width="338" height="554"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="cww-if-mrG" kind="embed" id="O49-hR-BJ6"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="enL-ey-b1W"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ty7-Sx-Ae7" firstAttribute="leading" secondItem="enL-ey-b1W" secondAttribute="leading" constant="80" id="KOM-hc-ANx"/>
+                            <constraint firstItem="ty7-Sx-Ae7" firstAttribute="top" secondItem="enL-ey-b1W" secondAttribute="top" constant="34" id="R98-Qw-dM5"/>
+                            <constraint firstItem="enL-ey-b1W" firstAttribute="trailing" secondItem="ty7-Sx-Ae7" secondAttribute="trailing" constant="80" id="tya-f4-rdS"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="zUZ-6M-ldd"/>
+                    <connections>
+                        <outlet property="SegmentOutlet" destination="ty7-Sx-Ae7" id="5cf-hq-tR1"/>
+                        <outlet property="ejercicio1SegmentView" destination="Jd9-A8-zGu" id="HZN-Jh-LfG"/>
+                        <outlet property="ejercicio2SegmentView" destination="eZs-h3-EUY" id="ax5-W3-v7i"/>
+                        <outlet property="ejercicio3SegmentView" destination="ch3-G4-bwu" id="vk7-b5-sKH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Iq6-uY-scL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4401" y="-719"/>
+            <point key="canvasLocation" x="9623" y="1769"/>
         </scene>
-        <!--View Controller-->
+        <!--Abdomen View Controller-->
         <scene sceneID="bma-5Y-Jsr">
             <objects>
-                <viewController id="7SU-VK-I2F" sceneMemberID="viewController">
+                <viewController id="7SU-VK-I2F" customClass="AbdomenViewController" customModule="mcfly" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Tlm-f7-lsM">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="838"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="N5D-Bj-LuT">
+                                <rect key="frame" x="79" y="82" width="257" height="32"/>
+                                <segments>
+                                    <segment title="ejercicio 1"/>
+                                    <segment title="ejercicio 2"/>
+                                    <segment title="ejercicio 3"/>
+                                </segments>
+                            </segmentedControl>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QxT-Pe-IaG">
+                                <rect key="frame" x="19" y="150" width="372" height="604"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="eoO-SD-yUo" kind="embed" id="iS3-88-3As"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2by-A1-jgo">
+                                <rect key="frame" x="19" y="150" width="372" height="604"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="Yed-DF-H4n" kind="embed" id="fCF-LC-IuT"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4nv-UB-rTc">
+                                <rect key="frame" x="19" y="150" width="372" height="604"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="FxI-aJ-8JC" kind="embed" id="a9U-Id-7Vp"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="aPz-d8-TJX"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="aPz-d8-TJX" firstAttribute="trailing" secondItem="N5D-Bj-LuT" secondAttribute="trailing" constant="78" id="2fx-yH-bct"/>
+                            <constraint firstItem="N5D-Bj-LuT" firstAttribute="top" secondItem="aPz-d8-TJX" secondAttribute="top" constant="34" id="8mX-SB-KWt"/>
+                            <constraint firstItem="N5D-Bj-LuT" firstAttribute="leading" secondItem="aPz-d8-TJX" secondAttribute="leading" constant="79" id="JEf-8Q-q7S"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="HSk-YE-AK3"/>
+                    <connections>
+                        <outlet property="SegmentOutlet" destination="N5D-Bj-LuT" id="bNa-qH-Kmb"/>
+                        <outlet property="ejercicio1SegmentView" destination="QxT-Pe-IaG" id="Ud6-MI-cHz"/>
+                        <outlet property="ejercicio2SegmentView" destination="2by-A1-jgo" id="RBR-Ve-or6"/>
+                        <outlet property="ejercicio3SegmentView" destination="4nv-UB-rTc" id="zeH-Ky-nGH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ffx-wh-q58" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4767" y="-70"/>
+            <point key="canvasLocation" x="9907" y="2898"/>
         </scene>
-        <!--View Controller-->
+        <!--Pierna View Controller-->
         <scene sceneID="bRd-5N-RlP">
             <objects>
-                <viewController id="j7B-SJ-vIf" sceneMemberID="viewController">
+                <viewController id="j7B-SJ-vIf" customClass="PiernaViewController" customModule="mcfly" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="scn-Z9-9hv">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="838"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="iyx-zF-cHe">
+                                <rect key="frame" x="59" y="82" width="296" height="32"/>
+                                <segments>
+                                    <segment title="ejercicio 1"/>
+                                    <segment title="ejercicio 2"/>
+                                    <segment title="ejercicio 3"/>
+                                    <segment title="ejercicio 4"/>
+                                </segments>
+                            </segmentedControl>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tPa-bb-H81">
+                                <rect key="frame" x="37" y="166" width="340" height="591"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="Uqi-M3-wjC" kind="embed" id="Fnf-vO-AQR"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pev-I5-EDz">
+                                <rect key="frame" x="37" y="166" width="340" height="591"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="VCK-lZ-2rQ" kind="embed" id="2I5-hS-cPa"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="owW-Db-yko">
+                                <rect key="frame" x="37" y="166" width="340" height="591"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="c13-tP-7Gg" kind="embed" id="4cC-HD-ywi"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P4H-MN-RJz">
+                                <rect key="frame" x="37" y="166" width="340" height="591"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="Hox-E8-g43" kind="embed" id="2Un-Zz-QuC"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="3Sg-fq-VAi"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="3Sg-fq-VAi" firstAttribute="trailing" secondItem="iyx-zF-cHe" secondAttribute="trailing" constant="59" id="DXo-zg-E0n"/>
+                            <constraint firstItem="iyx-zF-cHe" firstAttribute="top" secondItem="3Sg-fq-VAi" secondAttribute="top" constant="34" id="MgV-YF-3I3"/>
+                            <constraint firstItem="iyx-zF-cHe" firstAttribute="leading" secondItem="3Sg-fq-VAi" secondAttribute="leading" constant="59" id="VW3-eF-zSu"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="GCc-mt-kDh"/>
+                    <connections>
+                        <outlet property="SegmentOutlet" destination="iyx-zF-cHe" id="fya-1o-zzM"/>
+                        <outlet property="ejercicio1SegmentView" destination="tPa-bb-H81" id="TcW-oR-WwT"/>
+                        <outlet property="ejercicio2SegmentView" destination="pev-I5-EDz" id="0Cn-sf-Kqo"/>
+                        <outlet property="ejercicio3SegmentView" destination="owW-Db-yko" id="43C-LQ-Ovl"/>
+                        <outlet property="ejercicio4SegmentView" destination="P4H-MN-RJz" id="hHc-hW-YBW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GZK-Cg-7Vs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4767" y="592"/>
+            <point key="canvasLocation" x="9313" y="4428"/>
         </scene>
         <!--Reg View Controller-->
         <scene sceneID="mzC-mU-aQ0">
@@ -669,6 +1063,140 @@
             </objects>
             <point key="canvasLocation" x="928" y="298"/>
         </scene>
+        <!--Item-->
+        <scene sceneID="rnI-kt-Eqq">
+            <objects>
+                <viewController id="SNl-fE-RUP" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FR4-Wv-6UM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="838"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Z0u-eP-CjN"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="To5-Wf-hYB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2yW-Fl-c8m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-297" y="2223"/>
+        </scene>
+        <!--Item 2-->
+        <scene sceneID="jkp-5M-pWL">
+            <objects>
+                <viewController id="goW-jx-3DA" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="omB-K4-Y4x">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="838"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="TXN-cF-9qg"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="ezR-nL-5ET"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cm4-D5-KAP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="567" y="2223"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="KKr-aO-iAg">
+            <objects>
+                <viewController id="EBa-sk-6p0" customClass="TabPrincipalViewController" customModule="mcfly" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HnR-GV-bkh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="838"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="YOUR BODDY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bxz-dO-Smg">
+                                <rect key="frame" x="51" y="152" width="167" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gym-1" translatesAutoresizingMaskIntoConstraints="NO" id="LO6-zr-du9">
+                                <rect key="frame" x="217" y="135" width="160" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="evX-FL-mDZ">
+                                <rect key="frame" x="217" y="271" width="160" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gym5" translatesAutoresizingMaskIntoConstraints="NO" id="LNy-G6-SPL">
+                                <rect key="frame" x="51" y="255" width="167" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fux-Sx-ntp">
+                                <rect key="frame" x="51" y="391" width="167" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gym6" translatesAutoresizingMaskIntoConstraints="NO" id="Djn-Na-qaf">
+                                <rect key="frame" x="217" y="382" width="160" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gym4" translatesAutoresizingMaskIntoConstraints="NO" id="EWd-AG-CIj">
+                                <rect key="frame" x="54" y="525" width="161" height="109"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WORKOUTS FOR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IQs-7H-BiN">
+                                <rect key="frame" x="143" y="29" width="136" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="YOUR GOALS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U4d-OV-jpb">
+                                <rect key="frame" x="143" y="58" width="128" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" red="0.96841138599999999" green="0.92644150869999997" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GR7-co-nhH">
+                                <rect key="frame" x="217" y="525" width="160" height="109"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="iof-aL-3G7"/>
+                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="Kfa-Dl-brh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jiG-5P-lHF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="908.69565217391312" y="1322.5446428571429"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Hik-NS-rfW">
+            <objects>
+                <tabBarController id="hRr-d2-04K" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="quI-yL-NP3"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fNW-M0-UrE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" red="0.96841138599999999" green="0.92644150869999997" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="EBa-sk-6p0" kind="relationship" relationship="viewControllers" id="XgF-vJ-q0m"/>
+                        <segue destination="goW-jx-3DA" kind="relationship" relationship="viewControllers" id="bIL-8Q-RD1"/>
+                        <segue destination="SNl-fE-RUP" kind="relationship" relationship="viewControllers" id="03U-6m-NHf"/>
+                        <segue destination="exd-6T-vlg" kind="relationship" relationship="viewControllers" id="1kf-lg-LLc"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Alh-j8-uC1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-304" y="1393"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="dJy-cN-EB2">
             <objects>
@@ -690,7 +1218,7 @@
             <objects>
                 <viewController id="hlw-Mj-1la" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bfr-fm-HQy">
-                        <rect key="frame" x="0.0" y="0.0" width="373" height="184"/>
+                        <rect key="frame" x="0.0" y="0.0" width="368" height="182"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KbZ-L1-pSC">
@@ -700,19 +1228,20 @@
                                 <buttonConfiguration key="configuration" style="gray" title="Traint 1111 Supeior"/>
                             </button>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="7zA-xQ-xZM"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2lv-yf-VlD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1030" y="-1390"/>
+            <point key="canvasLocation" x="1459" y="-1377"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="avn-cE-LEw">
             <objects>
                 <viewController id="Qag-0o-G3R" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JcL-v5-5CL">
-                        <rect key="frame" x="0.0" y="0.0" width="373" height="184"/>
+                        <rect key="frame" x="0.0" y="0.0" width="368" height="182"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yXC-1g-lyb">
@@ -722,17 +1251,1155 @@
                                 <buttonConfiguration key="configuration" style="gray" title="Traint 2222 Inferior"/>
                             </button>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="NOg-fM-9gn"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tlw-iV-q0N" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1050" y="-1085"/>
+            <point key="canvasLocation" x="1479" y="-1072"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="LwU-a0-edk">
+            <objects>
+                <viewController id="p2U-Vy-LsV" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Yvk-BZ-S84">
+                        <rect key="frame" x="0.0" y="0.0" width="331" height="608"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="yRr-3q-9I9">
+                                <rect key="frame" x="47" y="118" width="240" height="250"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Siempre conservando la espalda recta y el tronco flexionado, y sólo movilizando los brazos, inspiramos y flexionamos los codos mientras jalamos de la barra para acercarla al pecho, espiramos al final del movimiento y después regresamos lentamente a la posición inicial mientras extendemos los brazos. También se puede realizar este ejercicio en máquina específica, sentados, reproduciendo el movimiento que efectuamos con barra T.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="espalda2" translatesAutoresizingMaskIntoConstraints="NO" id="6bZ-yy-1b7">
+                                <rect key="frame" x="47" y="377" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Remo en Maquina Tumbado" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iq5-yP-vng">
+                                <rect key="frame" x="61" y="48" width="213" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="sTx-P4-peu"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rFe-to-Y2k" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2280" y="831"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="nd7-mx-aEg">
+            <objects>
+                <viewController id="0Ap-LE-Inl" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jDc-qG-zog">
+                        <rect key="frame" x="0.0" y="0.0" width="331" height="608"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="mWb-g0-MVE">
+                                <rect key="frame" x="47" y="91" width="240" height="300.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Selecciona el peso deseado y agarra los manerales con las palmas mirando al frente y siéntate. Asegura tus rodillas bajo el rodillo para mantener una posición estable durante todo el movimiento. Con los brazos completamente extendidos, mira al frente y saca el pecho hacia fuera. Esta es la posición inicial.
+Inspira y tira del peso hacia abajo hacia la zona superior de tu pecho. Cuando sobrepases unos grados la paralela mantén la contracción durante un segundo y devuelve el peso a la posición inicial mientras sueltas el aire.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="espalda1" translatesAutoresizingMaskIntoConstraints="NO" id="ZyO-Kc-iaf">
+                                <rect key="frame" x="47" y="399" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Jalon en Maquina" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hhS-Wr-piy">
+                                <rect key="frame" x="100" y="48" width="134" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="7Hh-aS-lCy"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uh1-Av-6TS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1651" y="890"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="puy-tP-Qi6">
+            <objects>
+                <viewController id="gmv-KU-Adg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TK4-kg-WnA">
+                        <rect key="frame" x="0.0" y="0.0" width="331" height="608"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pull Over en Polea" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JOO-4p-DER">
+                                <rect key="frame" x="98" y="48" width="138" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cWL-OK-HgI">
+                                <rect key="frame" x="47" y="111" width="240" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">El pullover con polea alta es un ejercicio que nos va a permitir entrenar la espalda y parte de los brazos. Se realiza de pie, con una estación de cable a la que se engancha una barra o unas agarraderas. Desde esa posición, el movimiento consiste en bajar los brazos y volver a subirlos, manteniendo los codos bloqueados durante todo el ejercicio.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="espalda4" translatesAutoresizingMaskIntoConstraints="NO" id="VTO-xY-ztW">
+                                <rect key="frame" x="47" y="350" width="240" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="iVa-AX-Wmq"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4sc-IU-xnY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2889.8550724637685" y="830.69196428571422"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ucr-oa-gY4">
+            <objects>
+                <viewController id="UBb-hk-30u" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IB4-ma-hEg">
+                        <rect key="frame" x="0.0" y="0.0" width="331" height="608"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Remo Gironda" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="muj-qc-zPW">
+                                <rect key="frame" x="113" y="48" width="108" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="espalda3" translatesAutoresizingMaskIntoConstraints="NO" id="rsS-wC-hRD">
+                                <rect key="frame" x="47" y="405" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="mvb-ex-ULP">
+                                <rect key="frame" x="47" y="93" width="240" height="300.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Se trata de un banco de pesas donde debes adoptar una posición similar a la de un bote de remo olímpico, donde te colocas sentado con los pies apoyados en una superficie frontal y con las manos agarras la polea con la que harás un movimiento de tracción o tirón.En dicha polea, además, tienes diferentes opciones de agarre o barras que añadir para ir modificando el tipo de movimiento y los ángulos musculares en cada sesión, lo cual te permitirá variar el estímulo muscular y también hacer que los entrenamientos sean más divertidos.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="geW-eo-5DT"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="it0-DN-GCL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3482" y="911"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ee2-Tl-46e">
+            <objects>
+                <viewController id="X8H-5f-0Iq" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HO5-zE-C3X">
+                        <rect key="frame" x="0.0" y="0.0" width="343" height="579"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Prensa de Pecho Inclinado" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="42G-Yr-Lay">
+                                <rect key="frame" x="70" y="48" width="201" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pecho2" translatesAutoresizingMaskIntoConstraints="NO" id="b5J-XM-lPK">
+                                <rect key="frame" x="50" y="398" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5UU-ol-7yN">
+                                <rect key="frame" x="38" y="85" width="270" height="322"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">La prensa de pecho inclinada es un ejercicio muy parecido al primero que de esta lista. Te ayudará a fortalecer las zonas media y baja de los pectorales con movimientos de intensidad media.Recuéstate sobre un banco inclinado para ejercicios.
+Toma dos mancuernas, flexiona los codos y ubícalas a los laterales de tu pecho. Recuerda que tus palmas deben apuntar hacia el frente.
+Eleva los brazos hasta que estén completamente estirados.
+Bájalos lentamente y repite el ejercicio 9 veces más.
+Ejecuta esta actividad en 4 series de 10 repeticiones.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="I1u-VK-kIB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WIH-mR-K1d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4778.985507246377" y="669.64285714285711"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="0gh-W2-q1r">
+            <objects>
+                <viewController id="bJi-fu-2ff" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qCv-kU-NF7">
+                        <rect key="frame" x="0.0" y="0.0" width="343" height="579"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Prensa de Pecho con Banco" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z1Q-DR-aeI">
+                                <rect key="frame" x="64" y="48" width="213" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ejK-pV-KHl">
+                                <rect key="frame" x="22" y="82" width="297" height="317"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Este es uno de los ejercicios de pectorales con mancuernas clásico que siempre da resultados. Tonificarás esta zona muscular y podrás practicarlo fácilmente en el gym.Recuéstate bocarriba en un banco para ejercicio.Toma 2 mancuernas y flexiona los codos dejándolos reposar sobre el suelo. Las mancuernas deberán quedar elevadas por encima de tu pecho.Sube las mancuernas en forma recta hasta que tus brazos queden totalmente perpendiculares a tu cuerpo.Espera unos segundos y bájalas a su posición inicial lentamente.Recuerda mantener controlada tu respiración, exhalando al levantar las mancuernas e inhalando al bajarlas.Realiza este movimiento 12 veces por un total de 4 series.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pecho1" translatesAutoresizingMaskIntoConstraints="NO" id="LnH-eW-LSZ">
+                                <rect key="frame" x="50" y="415" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="WeA-yS-5Hm"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oL3-wY-wH1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4555.7971014492759" y="1139.7321428571429"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="eJd-5F-8qm">
+            <objects>
+                <viewController id="QMK-2p-4jN" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AYP-fr-gcW">
+                        <rect key="frame" x="0.0" y="0.0" width="343" height="579"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cruces con polea alta" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rkP-AD-d2e">
+                                <rect key="frame" x="82" y="48" width="165" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="EJA-ku-4rF">
+                                <rect key="frame" x="29" y="93" width="288" height="334"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Los cruces con polea alta suelen ser más utilizados que los cruces desde polea baja. De pie, agarramos cada una de las anillas con cada mano y las bajamos hasta la altura de la cadera para nuevamente subirlas controlando el movimiento hasta la posición inicial. Es importante tener una ligera flexión de codo para evitar lesiones.Si nos centramos en los músculos trabajados con este ejercicio hay que destacar la parte media e inferior del pectoral mayor, así como el deltoides anterior. Si el objetivo es marcar la parte central del pecho, "el canalillo" que une los dos pectorales, es aconsejable realizar este ejercicio.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pecho3" translatesAutoresizingMaskIntoConstraints="NO" id="7rx-oo-1WH">
+                                <rect key="frame" x="50" y="397" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="aoo-ec-aNB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5ax-Ek-PQP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5357.2463768115949" y="669.64285714285711"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="wqr-VN-KF6">
+            <objects>
+                <viewController id="ddz-xs-9YE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Knd-dd-XrI">
+                        <rect key="frame" x="0.0" y="0.0" width="343" height="579"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cruces con Polea Baja" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a1x-YB-agy">
+                                <rect key="frame" x="85" y="48" width="170" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pecho4" translatesAutoresizingMaskIntoConstraints="NO" id="UI4-c1-BI1">
+                                <rect key="frame" x="50" y="378" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="T2Z-as-wF3">
+                                <rect key="frame" x="50" y="93" width="240" height="267"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">En esta ocasión el agarre está abajo, casi en el suelo. La posición de partida es similar a la anterior. Cogemos cada anilla con cada mano, piernas ligeramente flexionadas y tronco inclinado hacia delante.
+Desde esta posición inicial, subimos las poleas hasta la altura de los hombros, sin llegar a sobrepasarlos. Igualmente, es importante tener una ligera flexión de codo y que las muñecas vayan girando para que terminen con las palmas hacia arriba.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="fXY-we-zBm"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="caJ-xa-ePP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5936" y="1055"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="2cl-OH-GYj">
+            <objects>
+                <viewController id="QcE-9p-id1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="d0F-Vu-9DE">
+                        <rect key="frame" x="0.0" y="0.0" width="352" height="604"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Press de Hombros con Mancuernas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6rX-gA-peg">
+                                <rect key="frame" x="41" y="48" width="271" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zmH-yJ-vxm">
+                                <rect key="frame" x="31" y="92" width="292" height="420"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Fundamental hacerlo con un peso adecuado que nos permite rigor con la técnica. Subir las mancuernas con un buen impulso, casi explosivamente, descender lentamente, mantener firme el torso y guiar el movimiento de manera suave.Sentado en un asiento de espalda baja, o banco ajustable, mantenerse erguido mientras se sujetan un par de mancuernas. Comenzar elevándolas por fuera de los hombros con las palmas dirigidas hacia delante.
+Hacer press con las mancuernas llevándolas hacia arriba a la vez que se contraen los músculos de los hombros y se extienden los codos hasta que el peso quede por encima de la cabeza, justamente antes de bloquear los brazos. Lentamente, bajar las mancuernas a la posición de comienzo.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hombro3" translatesAutoresizingMaskIntoConstraints="NO" id="KQ9-FB-LPF">
+                                <rect key="frame" x="55" y="435" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Tgu-qu-2tr"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EAo-sa-tdM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7082.6086956521749" y="1186.6071428571429"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="cvK-OX-ElC">
+            <objects>
+                <viewController id="EFf-8O-cgP" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IqH-gn-G83">
+                        <rect key="frame" x="0.0" y="0.0" width="352" height="604"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Face Pull" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PNM-bf-Bks">
+                                <rect key="frame" x="141" y="48" width="68" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hombro1" translatesAutoresizingMaskIntoConstraints="NO" id="IZf-5r-DjB">
+                                <rect key="frame" x="55" y="411" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="BsD-g3-Tas">
+                                <rect key="frame" x="30" y="111" width="289" height="279"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Lo habitual es usar un agarre prono y una polea. Si lo haces de pie tendrás que inclinarte ligeramente hacia atrás (ángulo de 20 grados), si lo haces sentado y en polea baja tendrás que separarte de la polea lo suficiente para sentir el peso y que las placas no choquen entre sí al estirar los brazos en cada repetición.
+El movimiento comienza con los brazos estirados, codos próximos al torso y con la columna bien erguida.  Desde esta posición llevamos la polea hacia el cuello o hacia el rostro combinando una extensión horizontal de hombro, una abducción y una rotación externa. Casi nada.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="DTw-g2-4fz"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f0D-58-d7M" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8323.188405797102" y="1186.6071428571429"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Xff-yV-rE3">
+            <objects>
+                <viewController id="jTZ-KM-qbz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1eC-rh-Itl">
+                        <rect key="frame" x="0.0" y="0.0" width="352" height="604"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4pe-f0-teG">
+                                <rect key="frame" x="31" y="126" width="289" height="260"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Hacer la elevación lateral hasta que los brazos quedan paralelos al suelo trabaja la cabeza media del deltoide.
+Continuar el movimiento más arriba de la paralela asegura contracción máxima y aumenta el intervalo de recorrido, cosas que contribuyen a un desarrollo completo.
+Pero al subir por encima de este punto, se trabajan más los trapecios además de aumentar el riesgo de lesión y obligarte a reducir los pesos considerablemente.
+Aunque la preocupación por el pinzamiento de los rotadores es real,  podemos minimizarla de dos maneras.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hombro2" translatesAutoresizingMaskIntoConstraints="NO" id="czi-JC-9uc">
+                                <rect key="frame" x="55" y="405" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Elevaciones laterales de hombro" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hSh-Fo-SRb">
+                                <rect key="frame" x="52" y="48" width="246" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="nG5-wl-ybl"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GL9-pt-Vyx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7692.753623188406" y="766.74107142857144"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="r0a-ub-ffO">
+            <objects>
+                <viewController id="sW7-2G-HJi" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bYm-3e-Dhl">
+                        <rect key="frame" x="0.0" y="0.0" width="338" height="554"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Curl de bíceps con barra Z en banco " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fbd-uX-SrB">
+                                <rect key="frame" x="29" y="34" width="281" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bicep1" translatesAutoresizingMaskIntoConstraints="NO" id="6IC-T2-V42">
+                                <rect key="frame" x="49" y="393" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ttd-i0-Sw9">
+                                <rect key="frame" x="24" y="76" width="293" height="303"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Es un ejercicio  que destaca por su gran aislamiento y localización del bíceps  con respecto a otros ejercicios de este músculo , generando mayor posibilidad de obtener un crecimiento y desarrollo óptimo del bíceps.Sentado en el asiento del banco scott , apoyamos la parte posterior de los brazos en la superficie inclinada de la almohadilla de forma que en la parte superior queden ajustadas las axilas.Debes mantener la espalda recta y  hombros hacia atrás en todo momento.No movilizar los codos hacia los lados o hacia el frente, deben permanecer en un punto fijo en todo momento.Inspiramos y realizamos una flexión de brazos , contrayendo el bíceps hasta el punto de máxima tensión muscular.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="dTt-vm-dKg"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tft-JZ-9CW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9053.6231884057979" y="2192.4107142857142"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="QoK-t0-b5P">
+            <objects>
+                <viewController id="fdr-SG-WlK" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="I0n-vh-G7w">
+                        <rect key="frame" x="0.0" y="0.0" width="338" height="554"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Curl con mancuernas en banco inclinado" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k5F-Tp-Rde">
+                                <rect key="frame" x="15" y="36" width="309" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bicep3" translatesAutoresizingMaskIntoConstraints="NO" id="WE1-6Z-1X5">
+                                <rect key="frame" x="49" y="377" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="itU-0P-eYb">
+                                <rect key="frame" x="30" y="84" width="280" height="334"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Acostados boca arriba sobre un banco inclinado en angulo de 45. La espalda debe apoyarse contra el banco.
+Sujetad una mancuerna en cada mano, empleando agarre neutro, con los brazos extendidos y colgando directamente a los lados.
+Tomad aire y retenedlo mientras subís el peso hasta los hombros doblando los codos. Mantened los brazos fijos, sin llevarlos hacia delante.
+Para que los bíceps trabajen a tope, girad lentamente las muñecas cuando los antebrazos alcancen la paralela al suelo. Las palmas deben mirar hacia arriba en la posición final.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="pWx-aH-BBI"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mKG-qY-Geq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="10234.782608695654" y="1768.5267857142856"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="TnT-NG-Khu">
+            <objects>
+                <viewController id="cww-if-mrG" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hWP-T3-chB">
+                        <rect key="frame" x="0.0" y="0.0" width="338" height="554"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Curl de martillo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fwt-PP-jq8">
+                                <rect key="frame" x="111" y="48" width="116" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bicep2" translatesAutoresizingMaskIntoConstraints="NO" id="Wgw-ed-bYO">
+                                <rect key="frame" x="49" y="376" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5h4-ls-PCF">
+                                <rect key="frame" x="31" y="92" width="276" height="261"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Este ejercicio además de permitirnos trabajar el bíceps, permite que otros músculos de la periferia y cercanos al mismo puedan ser trabajados, logrando aumentar el volumen y la forma.De pie, con una mancuerna en cada mano, mantén los brazos extendidos a los lados del cuerpo, con las palmas mirando hacia tus muslos.
+Sin mover los brazos, dobla los codos y lleva las mancuernas hacia los hombros, manteniendo las palmas hacia adentro en todo momento. Siente la contracción en los bíceps y antebrazos.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="2Tx-u8-8y3"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5P-Pu-QBU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9021.7391304347839" y="1768.5267857142856"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="i6E-Pr-diR">
+            <objects>
+                <viewController id="eoO-SD-yUo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8pT-bW-2vk">
+                        <rect key="frame" x="0.0" y="0.0" width="372" height="604"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Plancha isométrica" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SJh-rt-1RW">
+                                <rect key="frame" x="114" y="48" width="144" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="K5P-hX-7Iq">
+                                <rect key="frame" x="45" y="122" width="290" height="269"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Espalda recta, core y glúteos firmes y aguantamos con el cuerpo como una tabla. Con series de 30 segundos es más que suficiente para una buena activación abdominal. Recuerda que tienes que sentir la tensión de tus abdominales en todo momento, no los relajamos hasta llegar a los 30 segundos o un minuto. La plancha isométrica es uno de los ejercicios más completos para toda tu zona abdominal.Puedes variar los distintos tipos de plancha probando también la plancha lateral para fortalecer y marcar los oblicuos y la zona lateral de los abdominales.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abs2" translatesAutoresizingMaskIntoConstraints="NO" id="0fi-ua-8Pl">
+                                <rect key="frame" x="66" y="399" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="1Sy-Vi-BVU"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UQg-lR-9ac" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="10569.565217391306" y="2877.4553571428569"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="JQ4-mW-fc4">
+            <objects>
+                <viewController id="Yed-DF-H4n" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gWd-w6-t9b">
+                        <rect key="frame" x="0.0" y="0.0" width="372" height="604"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Plancha lateral arriba y abajo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DIE-4H-6x4">
+                                <rect key="frame" x="76" y="48" width="219" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abs1" translatesAutoresizingMaskIntoConstraints="NO" id="foc-zP-aUf">
+                                <rect key="frame" x="66" y="343" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="01W-83-ipG">
+                                <rect key="frame" x="66" y="128" width="240" height="166.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">La plancha fortalece los abdominales, la espalda y los hombros. Los músculos implicados en la plancha frontal incluyen: Músculos primarios: músculo erector de la columna, músculo recto mayor del abdomen (abdominales) y músculo transverso del abdomen. ​</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="G96-K5-Tw0"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bf3-1S-V79" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9249" y="2912"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ix0-J4-PhP">
+            <objects>
+                <viewController id="FxI-aJ-8JC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zbF-pc-vFF">
+                        <rect key="frame" x="0.0" y="0.0" width="372" height="604"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cable crunch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kdh-C1-4gD">
+                                <rect key="frame" x="136" y="48" width="101" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abs3" translatesAutoresizingMaskIntoConstraints="NO" id="a7T-6B-74s">
+                                <rect key="frame" x="66" y="385" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gpj-bY-0Vo">
+                                <rect key="frame" x="66" y="124" width="240" height="233.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Unos crunchs poco lesivos si ejecutas la técnica correctamente. De rodillas, espalda recta, abdominales muy fuertes y bajamos muy lentamente. Al subir igual, así que ajusta bien el peso con el que haces los crunches en polea.Los encogimientos en banco declinado y encogimientos con cable o polea son los mejores ejercicios para entrenar los abdominales superiores o la zona superior abdominal.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="kh0-wP-dAf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UBB-f3-s9d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9907" y="3443"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ynb-7l-R59">
+            <objects>
+                <viewController id="Uqi-M3-wjC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DRN-x9-0Ec">
+                        <rect key="frame" x="0.0" y="0.0" width="340" height="591"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Zancadas alternas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UoN-ep-hfN">
+                                <rect key="frame" x="100" y="48" width="140" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pierna4" translatesAutoresizingMaskIntoConstraints="NO" id="Iz1-GW-nWG">
+                                <rect key="frame" x="50" y="399" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gRm-zw-bqa">
+                                <rect key="frame" x="41" y="110" width="260" height="284"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">La posición inicial es en cuclillas y con las manos posicionadas en la cadera. Adelanta una pierna y la otra, alternativamente. Ten en cuenta que la pierna que se encuentre levantada no debe superar un ángulo de 90 grados.Es un perfecto ejercicio para fortalecer las piernas, y tonificar los muslos si eres constante. Lo recomendable son dos series de catorce repeticiones. Se puede alternar el estiramiento de la pierna con la contracción de la misma, manteniendo el muslo paralelo al tronco.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="RXG-hW-8pj"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WQN-rR-Gse" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8678.9855072463779" y="4296.09375"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="aUO-UM-Jkg">
+            <objects>
+                <viewController id="VCK-lZ-2rQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7hb-o7-1Kc">
+                        <rect key="frame" x="0.0" y="0.0" width="340" height="591"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sentadilla Hack" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oFv-Jd-aFJ">
+                                <rect key="frame" x="112" y="48" width="118" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pierna2" translatesAutoresizingMaskIntoConstraints="NO" id="aYP-NO-jDV">
+                                <rect key="frame" x="50" y="429" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="PSO-sl-WUI">
+                                <rect key="frame" x="33" y="92" width="277" height="337"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">La Sentadilla Hack o Hack Squat es una variante de la sentadilla con barra, en el cuál se realiza en una máquina con discos, con la espalda apoyada, tiene gran incidencia en la estimulación de los cuádriceps y los glúteos, como principal musculatura involucrada, con ello, en este artículo hablaremos de los antecedentes históricos, cómo realizarla y programarla.
+La sentadilla es uno de los ejercicios más efectivos para fortalecer los músculos de las piernas y glúteos. Sin embargo, muchas personas se enfrentan a desafíos a la hora de realizar esta actividad de manera efectiva y eficiente. Para ayudar a superar estos obstáculos, se ha desarrollado una técnica conocida como sentadillas Hack.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="P3O-Ix-bnb"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hEP-Dn-1Xo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9958.6956521739139" y="4284.7098214285716"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Dns-cC-Vow">
+            <objects>
+                <viewController id="c13-tP-7Gg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZzH-K5-eLK">
+                        <rect key="frame" x="0.0" y="0.0" width="340" height="591"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sentadilla con barra" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="byE-cd-mYJ">
+                                <rect key="frame" x="95" y="48" width="152" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="RXn-v6-xyS">
+                                <rect key="frame" x="50" y="95" width="240" height="300.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">La sentadillas son estupendas, porque actúan como elementos activadores del metabolismo. Esto significa que este último se ve obligado a compensar el ejercicio segregando hormonas del crecimiento en tu organismo, las cuales ayudan al desarrollo muscular en todo tu cuerpo.De pie, apoya la barra en los hombros. Los pies deben mantenerse separados a la distancia del ancho de los hombros. Flexiona lentamente las rodillas hasta que los muslos y el gemelo formen más o menos un ángulo de 90º. Estira las piernas para regresar a la posición inicial.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pierna1" translatesAutoresizingMaskIntoConstraints="NO" id="2oy-28-MJ9">
+                                <rect key="frame" x="50" y="403" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="E97-Wh-4cY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k6N-tA-QkG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8721" y="4888"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fRH-xM-m0x">
+            <objects>
+                <viewController id="Hox-E8-g43" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fzH-1e-9JI">
+                        <rect key="frame" x="0.0" y="0.0" width="340" height="591"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="MPw-Ky-XjU">
+                                <rect key="frame" x="27" y="79" width="289" height="338"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Para comenzar el ejercicio de extensión de piernas en máquina debemos sentarnos en la máquina específica para tal fin y colocar los pies debajo de las almohadillas o rodillos acolchados, de manera tal que las rodillas queden alineadas con la articulación de la máquina.Colocamos las manos agarrando el asiento o los brazos del sillon para estabilizar el tronco y nos sentamos de manera tal que la espalda y las caderas queden perfectamente apoyadas sobre el respaldo de la máquina. Previamente debemos cargar la máquina con el peso elegido y una vez en esta posición, debemos inspirar y realizar una extensión de rodilla de manera de levantar el peso con las piernas hasta que éstas queden horizontales y paralelas al piso, el torso debe permanecer inmóvil y erguido.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pierna3" translatesAutoresizingMaskIntoConstraints="NO" id="ZPl-o9-PA9">
+                                <rect key="frame" x="51" y="425" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Extensión de piernas en máquina" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sKJ-S8-bc3">
+                                <rect key="frame" x="46" y="31" width="251" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="mEO-Ys-yh3"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Uu-fs-Auk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9926.8115942028999" y="4886.71875"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="9H5-cp-LAd">
+            <objects>
+                <viewController id="I5E-fM-FFL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Blk-Yl-BZ6">
+                        <rect key="frame" x="0.0" y="0.0" width="351" height="593"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="as3-JN-0MJ">
+                                <rect key="frame" x="37" y="95" width="278" height="300"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Lo primero es colocar en la máquina el peso que deseamos levantar. Debes posar ambos pies sobre la plataforma y colocar los hombros bajo las almohadillas forradas de la máquina y, tomar con ambas manos la parte superior de esta. Para iniciar el ejercicio debes tener las rodillas levemente flexionadas para comenzar el movimiento.
+El peso debe reposar sobre tus hombros al elevar los talones y empujar tu cuerpo hacia arriba con los pies. La espalda debe permanecer siempre recta mientras tu cuerpo sube y baja por la elevación de los pies y la extensión de las piernas.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pantarrila1" translatesAutoresizingMaskIntoConstraints="NO" id="GvY-5L-0FO">
+                                <rect key="frame" x="56" y="421" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Elevación de talones de pie en máquina" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1nK-bq-WjI">
+                                <rect key="frame" x="27" y="48" width="299" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Dj3-KD-tde"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mHx-oo-c1X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4615.9420289855079" y="3204.9107142857142"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="XBc-a9-hDn">
+            <objects>
+                <viewController id="rr4-ji-QOq" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6L8-3n-z4z">
+                        <rect key="frame" x="0.0" y="0.0" width="351" height="593"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Elevacion de Gemelos Sentado" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="72x-Sb-nAw">
+                                <rect key="frame" x="61" y="48" width="235" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="APg-Mr-OBK">
+                                <rect key="frame" x="36" y="103" width="284" height="325"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Siempre siéntate con las rodillas dobladas en ángulo recto (90º), no busques ningún otro tipo de posición rara.
+Siempre utiliza un rango de movimiento máximo en el ejercicio para permitir que los talones caigan lo más lejos posible y luego puedan elevarse lo más alto posible, de este modo aumentamos el recorrido y el tiempo bajo tensión lo que deriva en un mejor desarrollo muscular.
+Nunca rebotes en la posición más baja para luego comenzar más fácilmente el movimiento hacia arriba. Corres graves riesgos de lesión. Haz una pausa de un segundo en la parte inferior y en la parte superior de cada repetición. Esto asegurará un buen estiramiento y evitará cualquier rebote o trampa.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pantorrila2" translatesAutoresizingMaskIntoConstraints="NO" id="boh-hX-06o">
+                                <rect key="frame" x="56" y="436" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="nRG-db-C3F"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZLq-c4-cHX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5898.5507246376819" y="3166.7410714285711"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="NF3-JJ-J2R">
+            <objects>
+                <viewController id="EUf-3d-pe3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hO8-mc-kE9">
+                        <rect key="frame" x="0.0" y="0.0" width="343" height="588"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Antebrazo con cuerda" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XqT-5a-asR">
+                                <rect key="frame" x="88" y="48" width="168" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="antrebrazo3" translatesAutoresizingMaskIntoConstraints="NO" id="A6R-Ol-Lw6">
+                                <rect key="frame" x="52" y="383" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="P9j-XK-bY1">
+                                <rect key="frame" x="52" y="102" width="240" height="267"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Nuestro ejercicio favorito. Su mecánica es muy sencilla: con una pesa colgando de una cuerda, atada a su vez a una barra corta, enrolla y desenróllala varias veces. La contracción del músculo es total y verás cómo te cuesta llegar al final. ¡Literalmente duele y mucho!.A un palo o barra de mancuerna ata una cuerda y en su extremo una disco. Con las 2 manos sujetamos la barra y vamos enrollando la cuerda para volver a desenrollarla cuando el disco  haya llegado arriba.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="lS3-oS-3eD"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wcc-bI-kEp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5354" y="4903"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Q0h-IR-pZo">
+            <objects>
+                <viewController id="3jS-cZ-Sc4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7DT-bR-FwP">
+                        <rect key="frame" x="0.0" y="0.0" width="343" height="588"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Curl de antebrazo con barra en banco" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MVW-7D-N3x">
+                                <rect key="frame" x="28" y="48" width="288" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gq5-6V-kAD">
+                                <rect key="frame" x="28" y="103" width="288" height="320"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">De rodillas apoyando los brazos en un banco, flexionamos las muñecas arriba y abajo. Puedes ejecutarlo en pronación o supinación y siempre controlando el peso que vamos a mover para evitar lesiones inoportunas.Colocaremos una barra sobre un lado de un banco plano y nos arrodillamos con ambas rodillas para que el cuerpo se enfrente al banco plano. Usaremos ambos brazos para agarrar una barra con un agarre en supinación (palmas hacia arriba) y apoyaremos los antebrazos contra el banco plano. Las muñecas deben estar colgando sobre el borde.
+Doblamos las muñecas hacia abajo mientras exhalamos.
+Subiremos lentamente las muñecas hacia la posición inicial mientras inhalamos. 
+
+</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="antrebrazo2" translatesAutoresizingMaskIntoConstraints="NO" id="Oi2-hu-Cb7">
+                                <rect key="frame" x="52" y="428" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="9Zo-xU-6DD"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ulO-GS-Flu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5931.884057971015" y="4358.3705357142853"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Akh-ym-qeo">
+            <objects>
+                <viewController id="eLB-uL-NCl" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XHZ-r6-l14">
+                        <rect key="frame" x="0.0" y="0.0" width="343" height="588"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Flexiones de muñeca" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D1r-gU-2uy">
+                                <rect key="frame" x="92" y="48" width="160" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CpQ-un-rsC">
+                                <rect key="frame" x="26" y="89" width="292" height="292"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Sentado en un banco con una mancuerna, apoyamos el brazo en el muslo con la palma hacia arriba y flexionamos la muñeca arriba y abajo ralentizando el movimiento tanto como podamos. También se puede realizar con la palma hacia abajo, pero con mucho menos peso para no hacerte daño con cada repetición. Busca más peso con el primer movimiento, y menos y más repeticiones con el segundo.Este ejercicio siempre recomendamos hacerlo en conjunto con el siguiente de esta lista. Es decir, comenzamos con unas series de curl de muñecas con mancuerna palmas abajo (agarre prono) y seguimos con el curl con mancuerna palmas arriba (supino).</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="antrebrazo1" translatesAutoresizingMaskIntoConstraints="NO" id="30B-D7-U8o">
+                                <rect key="frame" x="52" y="398" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Za4-nB-KjV"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oRo-Ua-xON" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4652.1739130434789" y="4357.03125"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="MRV-GX-YiL">
+            <objects>
+                <viewController id="GLD-tk-s7L" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LwT-vE-RJZ">
+                        <rect key="frame" x="0.0" y="0.0" width="338" height="613"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fondos de tríceps" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ftN-ze-BLJ">
+                                <rect key="frame" x="100" y="48" width="137" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="i2m-Dh-mEo">
+                                <rect key="frame" x="48" y="108" width="240" height="300.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Es un ejercicio que tiene gran transferencia en cuanto a fuerza y con el que fácilmente podremos lastrarnos y aumentar así el peso que movemos y, por tanto, la intensidad del ejercicio. Podemos hacerlo entre dos bancos, entre dos sillas en casa o, la mejor opción, entre barras paralelas.
+
+Un error muy común es no hacer el rango completo del movimiento y no bajar del todo. En este caso, si no puedes hacer el rango completo, es mejor bajar el peso empleado o usar una goma elástica de ayuda.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tricep1" translatesAutoresizingMaskIntoConstraints="NO" id="u81-if-8ow">
+                                <rect key="frame" x="48" y="431" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="xKl-3t-c97"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="47J-TU-Cwb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2613" y="3846"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="dWj-7o-aEj">
+            <objects>
+                <viewController id="qUi-mg-xWX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eUV-vg-Z8j">
+                        <rect key="frame" x="0.0" y="0.0" width="338" height="613"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tríceps en polea superior con cuerda" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wiK-P2-mzm">
+                                <rect key="frame" x="27" y="48" width="282" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tricep2" translatesAutoresizingMaskIntoConstraints="NO" id="ASv-Wl-9TL">
+                                <rect key="frame" x="48" y="395" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="OcH-FT-Eg4">
+                                <rect key="frame" x="48" y="115" width="240" height="250"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Personalmente me gusta mucho realizar este ejercicio tanto con ambos brazos como de forma aislada trabajando cada brazo por separado. La sensación de trabajo y activación del tríceps es muy buena y me gusta sentir la contracción de este en cada repetición. En este caso es importante estirar los brazos del todo quedando estos al costado de nuestras caderas y así aprovechar el rango extra de movimiento que nos aporta la cuerda.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="MsQ-BS-5Eh"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pgn-Rv-soP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3848" y="3812"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ieA-zh-WXC">
+            <objects>
+                <viewController id="FUo-06-8CW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3II-HV-Scv">
+                        <rect key="frame" x="0.0" y="0.0" width="338" height="613"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Press Francés" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C0V-5u-yAC">
+                                <rect key="frame" x="114" y="48" width="108" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Mdr-cX-ffA">
+                                <rect key="frame" x="48" y="105" width="240" height="283.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Otro ejercicio que nos permitirá ganar algo de fuerza además de hipertrofia en el tríceps. Gracias a la barra podemos añadir kilos y así ir ganando fuerza y progresando. Es importante en este caso extender los brazos por completo al final del movimiento y bajar la barra lo suficiente para que nuestros brazos se flexionen por completo y así trabajar el rango completo del movimiento. Recuerda, es mejor usar un peso bajo y hacer el rango completo que subir el peso perjudicando el rango de movimiento.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tricep3" translatesAutoresizingMaskIntoConstraints="NO" id="SIn-jD-1MP">
+                                <rect key="frame" x="48" y="413" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="OzM-Rs-V7E"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MZJ-hL-Go0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3228" y="4348"/>
         </scene>
     </scenes>
     <resources>
         <image name="Parte-musculos" width="542" height="1038"/>
+        <image name="abs1" width="766" height="462"/>
+        <image name="abs2" width="1058" height="718"/>
+        <image name="abs3" width="1530" height="848"/>
+        <image name="antrebrazo1" width="1080" height="504"/>
+        <image name="antrebrazo2" width="556" height="496"/>
+        <image name="antrebrazo3" width="1168" height="578"/>
+        <image name="bicep1" width="1180" height="806"/>
+        <image name="bicep2" width="1260" height="624"/>
+        <image name="bicep3" width="1076" height="510"/>
         <image name="book" catalog="system" width="128" height="99"/>
+        <image name="espalda1" width="1248" height="588"/>
+        <image name="espalda2" width="1098" height="518"/>
+        <image name="espalda3" width="968" height="460"/>
+        <image name="espalda4" width="1184" height="678"/>
+        <image name="gym-1" width="660" height="371"/>
+        <image name="gym4" width="277" height="182"/>
+        <image name="gym5" width="1200" height="675"/>
+        <image name="gym6" width="1000" height="667"/>
+        <image name="hombro1" width="928" height="680"/>
+        <image name="hombro2" width="1080" height="510"/>
+        <image name="hombro3" width="1084" height="500"/>
+        <image name="pantarrila1" width="1140" height="638"/>
+        <image name="pantorrila2" width="1128" height="770"/>
+        <image name="pecho1" width="1090" height="758"/>
+        <image name="pecho2" width="1040" height="746"/>
+        <image name="pecho3" width="1100" height="516"/>
+        <image name="pecho4" width="1078" height="510"/>
+        <image name="pierna1" width="1064" height="490"/>
+        <image name="pierna2" width="1276" height="888"/>
+        <image name="pierna3" width="1088" height="506"/>
+        <image name="pierna4" width="1032" height="710"/>
+        <image name="tricep1" width="908" height="502"/>
+        <image name="tricep2" width="1146" height="726"/>
+        <image name="tricep3" width="1066" height="508"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="secondarySystemBackgroundColor">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
