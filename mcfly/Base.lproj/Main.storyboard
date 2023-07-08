@@ -142,6 +142,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Login"/>
                                 <connections>
+                                    <action selector="loginbuton:" destination="knL-K2-pSg" eventType="touchUpInside" id="Vxv-Iy-b1k"/>
                                     <action selector="regi:" destination="rMJ-jM-uPO" eventType="touchUpInside" id="36W-El-OPy"/>
                                 </connections>
                             </button>
@@ -149,6 +150,10 @@
                         <viewLayoutGuide key="safeArea" id="WDm-D8-dny"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
+                    <connections>
+                        <outlet property="passtext" destination="Nuz-2h-UIh" id="xln-oN-5rj"/>
+                        <outlet property="usertext" destination="RsW-cM-2KV" id="YLu-2b-cHH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zdR-X4-C4M" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -256,17 +261,12 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KvR-Dv-blD">
-                                <rect key="frame" x="18" y="406" width="369" height="184"/>
+                                <rect key="frame" x="23" y="446" width="369" height="184"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="Qag-0o-G3R" kind="embed" id="Uub-Cw-ocf"/>
                                 </connections>
                             </containerView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KGt-sc-xZv">
-                                <rect key="frame" x="19" y="691" width="374" height="93"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bill Fredy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JDk-Ta-Ikd">
                                 <rect key="frame" x="165" y="106" width="82" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -300,12 +300,17 @@
                                 </connections>
                             </segmentedControl>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e2h-Dp-dvO">
-                                <rect key="frame" x="18" y="406" width="369" height="184"/>
+                                <rect key="frame" x="25" y="446" width="369" height="184"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="hlw-Mj-1la" kind="embed" id="MKu-tN-IIR"/>
                                 </connections>
                             </containerView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KGt-sc-xZv">
+                                <rect key="frame" x="22" y="648" width="374" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="djS-K1-56k"/>
                         <color key="backgroundColor" systemColor="systemGrayColor"/>
@@ -507,6 +512,12 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="LPh-Ku-4aO"/>
+                    <connections>
+                        <outlet property="SegmentOutlet" destination="EhY-ec-jtN" id="Ej7-yQ-ZIn"/>
+                        <outlet property="ejercicio1SegmentView" destination="69G-xp-VSv" id="JiM-s3-EAK"/>
+                        <outlet property="ejercicio2SegmentView" destination="LBc-WB-npI" id="qfD-u7-He0"/>
+                        <outlet property="ejercicio3SegmentView" destination="QMe-MD-Of6" id="Ucl-pg-2pa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SAt-BH-jOQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -674,6 +685,12 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="cGh-lb-ds3"/>
+                    <connections>
+                        <outlet property="SegmentOutlet" destination="cPE-BT-14R" id="pWG-OY-l4K"/>
+                        <outlet property="ejercicio1SegmentView" destination="GW4-tX-iLB" id="RXZ-4H-DeY"/>
+                        <outlet property="ejercicio2SegmentView" destination="2Dn-ze-Heb" id="feR-3R-BDE"/>
+                        <outlet property="ejercicio3SegmentView" destination="WfI-Eh-BQY" id="XFd-Zt-OPr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p2W-nl-z0H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -726,6 +743,12 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="N8S-zT-BEx"/>
+                    <connections>
+                        <outlet property="SegmentOutlet" destination="CyJ-l9-zyU" id="RDl-Oh-hty"/>
+                        <outlet property="ejercicio1SegmentView" destination="tVT-wq-Twy" id="baB-nW-V1F"/>
+                        <outlet property="ejercicio2SegmentView" destination="Ro8-aH-HWa" id="quE-8a-cAU"/>
+                        <outlet property="ejercicio3SegmentView" destination="q2J-kD-ran" id="j2A-Qv-A0G"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1EJ-CH-UTa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -770,6 +793,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="qhR-3z-Hdf"/>
+                    <connections>
+                        <outlet property="SegmentOutlet" destination="A7l-UP-72z" id="bzd-Rd-0SM"/>
+                        <outlet property="ejercicio1SegmentView" destination="oLL-W6-eFl" id="fEW-4I-ty5"/>
+                        <outlet property="ejercicio2SegmentView" destination="YP7-Dc-XDB" id="4Kt-zf-BF7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k85-gB-rNN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -822,6 +850,12 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="zUZ-6M-ldd"/>
+                    <connections>
+                        <outlet property="SegmentOutlet" destination="ty7-Sx-Ae7" id="5cf-hq-tR1"/>
+                        <outlet property="ejercicio1SegmentView" destination="Jd9-A8-zGu" id="HZN-Jh-LfG"/>
+                        <outlet property="ejercicio2SegmentView" destination="eZs-h3-EUY" id="ax5-W3-v7i"/>
+                        <outlet property="ejercicio3SegmentView" destination="ch3-G4-bwu" id="vk7-b5-sKH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Iq6-uY-scL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -874,6 +908,12 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="HSk-YE-AK3"/>
+                    <connections>
+                        <outlet property="SegmentOutlet" destination="N5D-Bj-LuT" id="bNa-qH-Kmb"/>
+                        <outlet property="ejercicio1SegmentView" destination="QxT-Pe-IaG" id="Ud6-MI-cHz"/>
+                        <outlet property="ejercicio2SegmentView" destination="2by-A1-jgo" id="RBR-Ve-or6"/>
+                        <outlet property="ejercicio3SegmentView" destination="4nv-UB-rTc" id="zeH-Ky-nGH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ffx-wh-q58" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -934,6 +974,13 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="GCc-mt-kDh"/>
+                    <connections>
+                        <outlet property="SegmentOutlet" destination="iyx-zF-cHe" id="fya-1o-zzM"/>
+                        <outlet property="ejercicio1SegmentView" destination="tPa-bb-H81" id="TcW-oR-WwT"/>
+                        <outlet property="ejercicio2SegmentView" destination="pev-I5-EDz" id="0Cn-sf-Kqo"/>
+                        <outlet property="ejercicio3SegmentView" destination="owW-Db-yko" id="43C-LQ-Ovl"/>
+                        <outlet property="ejercicio4SegmentView" destination="P4H-MN-RJz" id="hHc-hW-YBW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GZK-Cg-7Vs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -980,19 +1027,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Password :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LgS-O6-a39">
-                                <rect key="frame" x="31" y="172" width="76" height="17"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uxe-kV-XzP">
-                                <rect key="frame" x="60" y="197" width="215" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zcm-ZF-4UF">
                                 <rect key="frame" x="120" y="246" width="90" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1007,6 +1041,10 @@
                         <viewLayoutGuide key="safeArea" id="mm4-NE-ySq"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
+                    <connections>
+                        <outlet property="passtext" destination="95l-9j-ZXL" id="ajK-P8-97y"/>
+                        <outlet property="usertext" destination="WbO-6I-2FR" id="M2H-WV-OsZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zcf-tz-s9J" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

@@ -8,11 +8,20 @@
 import UIKit
 
 class BicepViewController: UIViewController {
+    
+    @IBOutlet weak var SegmentOutlet: UISegmentedControl!
+    
+    @IBOutlet weak var ejercicio1SegmentView: UIView!
+    
+    @IBOutlet weak var ejercicio2SegmentView: UIView!
+    
+    @IBOutlet weak var ejercicio3SegmentView: UIView!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        self.view.bringSubviewToFront(SegmentOutlet)
     }
     
 
