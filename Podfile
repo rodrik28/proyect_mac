@@ -7,5 +7,7 @@ target 'mcfly' do
 
   # Pods for mcfly
     pod 'FirebaseAuth'
+    pod 'FirebaseDatabase'
+    pod 'FirebaseStorage'
 
 end

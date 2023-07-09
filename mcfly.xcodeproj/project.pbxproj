@@ -16,6 +16,8 @@
 		B87C6DA82A4F5C6B0041D11B /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87C6DA72A4F5C6B0041D11B /* LogViewController.swift */; };
 		B87C6DAA2A4F5C7E0041D11B /* RegViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87C6DA92A4F5C7E0041D11B /* RegViewController.swift */; };
 		B87C6DAC2A4F68680041D11B /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87C6DAB2A4F68680041D11B /* UserDetailViewController.swift */; };
+		C815AC942A5A32370082E3C7 /* dats.swift in Sources */ = {isa = PBXBuildFile; fileRef = C815AC932A5A32370082E3C7 /* dats.swift */; };
+		C815AC962A5A329D0082E3C7 /* TableeeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C815AC952A5A329D0082E3C7 /* TableeeeViewController.swift */; };
 		C86A6CF22A4F858700BFA4D6 /* TabPrincipalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86A6CF12A4F858700BFA4D6 /* TabPrincipalViewController.swift */; };
 		C8A3BE982A55BF9A00259AD6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8A3BE972A55BF9A00259AD6 /* GoogleService-Info.plist */; };
 		CE783374ADBE8DC923FDA20C /* Pods_mcfly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB7905DAF8B52C098AD9C185 /* Pods_mcfly.framework */; };
@@ -45,6 +47,8 @@
 		B87C6DA92A4F5C7E0041D11B /* RegViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegViewController.swift; sourceTree = "<group>"; };
 		B87C6DAB2A4F68680041D11B /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
 		BB7905DAF8B52C098AD9C185 /* Pods_mcfly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mcfly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C815AC932A5A32370082E3C7 /* dats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dats.swift; sourceTree = "<group>"; };
+		C815AC952A5A329D0082E3C7 /* TableeeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableeeeViewController.swift; sourceTree = "<group>"; };
 		C86A6CF12A4F858700BFA4D6 /* TabPrincipalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPrincipalViewController.swift; sourceTree = "<group>"; };
 		C8A3BE972A55BF9A00259AD6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FA7465052A58473600554179 /* AntebrazoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AntebrazoViewController.swift; sourceTree = "<group>"; };
@@ -108,6 +112,7 @@
 		B841C7702A4763B400E9C229 /* mcfly */ = {
 			isa = PBXGroup;
 			children = (
+				C815AC902A5A31E80082E3C7 /* models */,
 				B87C6DA62A4F5C510041D11B /* Controler_log_regis */,
 				B841C7712A4763B400E9C229 /* AppDelegate.swift */,
 				B841C7732A4763B400E9C229 /* SceneDelegate.swift */,
@@ -128,6 +133,7 @@
 				B841C77F2A4763B400E9C229 /* Info.plist */,
 				B87C6DAB2A4F68680041D11B /* UserDetailViewController.swift */,
 				C8A3BE972A55BF9A00259AD6 /* GoogleService-Info.plist */,
+				C815AC952A5A329D0082E3C7 /* TableeeeViewController.swift */,
 			);
 			path = mcfly;
 			sourceTree = "<group>";
@@ -139,6 +145,14 @@
 				B87C6DA92A4F5C7E0041D11B /* RegViewController.swift */,
 			);
 			path = Controler_log_regis;
+			sourceTree = "<group>";
+		};
+		C815AC902A5A31E80082E3C7 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				C815AC932A5A32370082E3C7 /* dats.swift */,
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +276,8 @@
 				B841C7762A4763B400E9C229 /* ViewController.swift in Sources */,
 				FA7E71202A567A6C00C9B7B7 /* HombroViewController.swift in Sources */,
 				FA7935352A57B0CB00267B70 /* PantorrillaViewController.swift in Sources */,
+				C815AC962A5A329D0082E3C7 /* TableeeeViewController.swift in Sources */,
+				C815AC942A5A32370082E3C7 /* dats.swift in Sources */,
 				FA7E711E2A5676E600C9B7B7 /* PechoViewController.swift in Sources */,
 				B841C7722A4763B400E9C229 /* AppDelegate.swift in Sources */,
 				FA7935332A57A8AB00267B70 /* PiernaViewController.swift in Sources */,
