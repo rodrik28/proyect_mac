@@ -18,7 +18,6 @@
 		B87C6DAC2A4F68680041D11B /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87C6DAB2A4F68680041D11B /* UserDetailViewController.swift */; };
 		C86A6CF22A4F858700BFA4D6 /* TabPrincipalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86A6CF12A4F858700BFA4D6 /* TabPrincipalViewController.swift */; };
 		C8A3BE982A55BF9A00259AD6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8A3BE972A55BF9A00259AD6 /* GoogleService-Info.plist */; };
-		CE783374ADBE8DC923FDA20C /* Pods_mcfly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB7905DAF8B52C098AD9C185 /* Pods_mcfly.framework */; };
 		FA7465062A58473600554179 /* AntebrazoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7465052A58473600554179 /* AntebrazoViewController.swift */; };
 		FA7465082A58494100554179 /* TricepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7465072A58494100554179 /* TricepViewController.swift */; };
 		FA7935332A57A8AB00267B70 /* PiernaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7935322A57A8AB00267B70 /* PiernaViewController.swift */; };
@@ -31,9 +30,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5B2704F3B62011A970170FE4 /* Pods-mcfly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mcfly.debug.xcconfig"; path = "Target Support Files/Pods-mcfly/Pods-mcfly.debug.xcconfig"; sourceTree = "<group>"; };
-		8061D9B46534082B5AD506CB /* Pods-mcfly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mcfly.release.xcconfig"; path = "Target Support Files/Pods-mcfly/Pods-mcfly.release.xcconfig"; sourceTree = "<group>"; };
-		B841C76E2A4763B400E9C229 /* mcfly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mcfly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B841C7712A4763B400E9C229 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B841C7732A4763B400E9C229 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B841C7752A4763B400E9C229 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,7 +40,6 @@
 		B87C6DA72A4F5C6B0041D11B /* LogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogViewController.swift; sourceTree = "<group>"; };
 		B87C6DA92A4F5C7E0041D11B /* RegViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegViewController.swift; sourceTree = "<group>"; };
 		B87C6DAB2A4F68680041D11B /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
-		BB7905DAF8B52C098AD9C185 /* Pods_mcfly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mcfly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C86A6CF12A4F858700BFA4D6 /* TabPrincipalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPrincipalViewController.swift; sourceTree = "<group>"; };
 		C8A3BE972A55BF9A00259AD6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FA7465052A58473600554179 /* AntebrazoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AntebrazoViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +51,7 @@
 		FA7E711F2A567A6C00C9B7B7 /* HombroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HombroViewController.swift; sourceTree = "<group>"; };
 		FA7E71212A567F5000C9B7B7 /* BicepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BicepViewController.swift; sourceTree = "<group>"; };
 		FA7E71232A5685F400C9B7B7 /* AbdomenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbdomenViewController.swift; sourceTree = "<group>"; };
+		FA7F78592A5A26B100476C48 /* mcfly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = mcfly.app; path = "/Users/macbook/Documents/2023:1/preuab_mac/build/Debug-iphoneos/mcfly.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,46 +59,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE783374ADBE8DC923FDA20C /* Pods_mcfly.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		14B7D89F6B434B5A989A6414 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5B2704F3B62011A970170FE4 /* Pods-mcfly.debug.xcconfig */,
-				8061D9B46534082B5AD506CB /* Pods-mcfly.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		921B098E1BF31D4A0EA44EDB /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BB7905DAF8B52C098AD9C185 /* Pods_mcfly.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		B841C7652A4763B300E9C229 = {
 			isa = PBXGroup;
 			children = (
 				B841C7702A4763B400E9C229 /* mcfly */,
-				B841C76F2A4763B400E9C229 /* Products */,
-				14B7D89F6B434B5A989A6414 /* Pods */,
-				921B098E1BF31D4A0EA44EDB /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		B841C76F2A4763B400E9C229 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B841C76E2A4763B400E9C229 /* mcfly.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		B841C7702A4763B400E9C229 /* mcfly */ = {
@@ -160,7 +127,7 @@
 			);
 			name = mcfly;
 			productName = mcfly;
-			productReference = B841C76E2A4763B400E9C229 /* mcfly.app */;
+			productReference = FA7F78592A5A26B100476C48 /* mcfly.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -187,7 +154,7 @@
 				Base,
 			);
 			mainGroup = B841C7652A4763B300E9C229;
-			productRefGroup = B841C76F2A4763B400E9C229 /* Products */;
+			productRefGroup = B841C7652A4763B300E9C229;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -414,7 +381,6 @@
 		};
 		B841C7832A4763B400E9C229 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B2704F3B62011A970170FE4 /* Pods-mcfly.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -442,7 +408,6 @@
 		};
 		B841C7842A4763B400E9C229 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8061D9B46534082B5AD506CB /* Pods-mcfly.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
