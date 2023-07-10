@@ -30,6 +30,35 @@
 		FA7E71202A567A6C00C9B7B7 /* HombroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E711F2A567A6C00C9B7B7 /* HombroViewController.swift */; };
 		FA7E71222A567F5000C9B7B7 /* BicepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E71212A567F5000C9B7B7 /* BicepViewController.swift */; };
 		FA7E71242A5685F400C9B7B7 /* AbdomenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E71232A5685F400C9B7B7 /* AbdomenViewController.swift */; };
+		FA833EDE2A5C22B3005A1E16 /* Espalda1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA833EDD2A5C22B3005A1E16 /* Espalda1View.swift */; };
+		FA833EE02A5C23FC005A1E16 /* Espalda2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA833EDF2A5C23FC005A1E16 /* Espalda2View.swift */; };
+		FA833EE22A5C244C005A1E16 /* Espalda3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA833EE12A5C244C005A1E16 /* Espalda3View.swift */; };
+		FA833EE42A5C2492005A1E16 /* Espalda4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA833EE32A5C2492005A1E16 /* Espalda4View.swift */; };
+		FA833EE62A5C2506005A1E16 /* Pecho1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA833EE52A5C2506005A1E16 /* Pecho1View.swift */; };
+		FA833EE82A5C2519005A1E16 /* Pecho2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA833EE72A5C2519005A1E16 /* Pecho2View.swift */; };
+		FA833EEA2A5C2529005A1E16 /* Pecho3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA833EE92A5C2529005A1E16 /* Pecho3View.swift */; };
+		FA833EEC2A5C2534005A1E16 /* Pecho4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA833EEB2A5C2534005A1E16 /* Pecho4View.swift */; };
+		FA833EEE2A5C254E005A1E16 /* Pierna1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA833EED2A5C254E005A1E16 /* Pierna1View.swift */; };
+		FA833EF02A5C255D005A1E16 /* Pierna2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA833EEF2A5C255D005A1E16 /* Pierna2View.swift */; };
+		FA833EF22A5C256A005A1E16 /* Pierna3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA833EF12A5C256A005A1E16 /* Pierna3View.swift */; };
+		FA833EF42A5C2577005A1E16 /* Pierna4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA833EF32A5C2577005A1E16 /* Pierna4View.swift */; };
+		FA833EF62A5C2594005A1E16 /* Hombro3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA833EF52A5C2594005A1E16 /* Hombro3View.swift */; };
+		FA833EF82A5C25A2005A1E16 /* Hombro2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA833EF72A5C25A2005A1E16 /* Hombro2View.swift */; };
+		FA833EFA2A5C25AE005A1E16 /* Hombro1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA833EF92A5C25AE005A1E16 /* Hombro1View.swift */; };
+		FA833EFC2A5C25C1005A1E16 /* Bicep3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA833EFB2A5C25C1005A1E16 /* Bicep3View.swift */; };
+		FA833EFE2A5C25D1005A1E16 /* Bicep2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA833EFD2A5C25D1005A1E16 /* Bicep2View.swift */; };
+		FA833F002A5C25DD005A1E16 /* Bicep1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA833EFF2A5C25DD005A1E16 /* Bicep1View.swift */; };
+		FA833F022A5C261A005A1E16 /* Tricep3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA833F012A5C261A005A1E16 /* Tricep3View.swift */; };
+		FA833F042A5C2626005A1E16 /* Tricep2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA833F032A5C2626005A1E16 /* Tricep2View.swift */; };
+		FA833F062A5C2632005A1E16 /* Tricep1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA833F052A5C2632005A1E16 /* Tricep1View.swift */; };
+		FA833F082A5C264E005A1E16 /* Abdomen3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA833F072A5C264E005A1E16 /* Abdomen3View.swift */; };
+		FA833F0A2A5C265B005A1E16 /* Abdomen2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA833F092A5C265B005A1E16 /* Abdomen2View.swift */; };
+		FA833F0C2A5C2667005A1E16 /* Abdomen1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA833F0B2A5C2667005A1E16 /* Abdomen1View.swift */; };
+		FA833F0E2A5C2683005A1E16 /* Antebrazo3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA833F0D2A5C2683005A1E16 /* Antebrazo3View.swift */; };
+		FA833F102A5C2691005A1E16 /* Antebrazo2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA833F0F2A5C2691005A1E16 /* Antebrazo2View.swift */; };
+		FA833F122A5C269C005A1E16 /* Antebrazo1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA833F112A5C269C005A1E16 /* Antebrazo1View.swift */; };
+		FA833F142A5C26B3005A1E16 /* Pantorrilla2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA833F132A5C26B3005A1E16 /* Pantorrilla2View.swift */; };
+		FA833F162A5C26D9005A1E16 /* Pantorrilla1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA833F152A5C26D9005A1E16 /* Pantorrilla1View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +89,35 @@
 		FA7E711F2A567A6C00C9B7B7 /* HombroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HombroViewController.swift; sourceTree = "<group>"; };
 		FA7E71212A567F5000C9B7B7 /* BicepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BicepViewController.swift; sourceTree = "<group>"; };
 		FA7E71232A5685F400C9B7B7 /* AbdomenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbdomenViewController.swift; sourceTree = "<group>"; };
+		FA833EDD2A5C22B3005A1E16 /* Espalda1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Espalda1View.swift; sourceTree = "<group>"; };
+		FA833EDF2A5C23FC005A1E16 /* Espalda2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Espalda2View.swift; sourceTree = "<group>"; };
+		FA833EE12A5C244C005A1E16 /* Espalda3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Espalda3View.swift; sourceTree = "<group>"; };
+		FA833EE32A5C2492005A1E16 /* Espalda4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Espalda4View.swift; sourceTree = "<group>"; };
+		FA833EE52A5C2506005A1E16 /* Pecho1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pecho1View.swift; sourceTree = "<group>"; };
+		FA833EE72A5C2519005A1E16 /* Pecho2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pecho2View.swift; sourceTree = "<group>"; };
+		FA833EE92A5C2529005A1E16 /* Pecho3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pecho3View.swift; sourceTree = "<group>"; };
+		FA833EEB2A5C2534005A1E16 /* Pecho4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pecho4View.swift; sourceTree = "<group>"; };
+		FA833EED2A5C254E005A1E16 /* Pierna1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pierna1View.swift; sourceTree = "<group>"; };
+		FA833EEF2A5C255D005A1E16 /* Pierna2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pierna2View.swift; sourceTree = "<group>"; };
+		FA833EF12A5C256A005A1E16 /* Pierna3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pierna3View.swift; sourceTree = "<group>"; };
+		FA833EF32A5C2577005A1E16 /* Pierna4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pierna4View.swift; sourceTree = "<group>"; };
+		FA833EF52A5C2594005A1E16 /* Hombro3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hombro3View.swift; sourceTree = "<group>"; };
+		FA833EF72A5C25A2005A1E16 /* Hombro2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hombro2View.swift; sourceTree = "<group>"; };
+		FA833EF92A5C25AE005A1E16 /* Hombro1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hombro1View.swift; sourceTree = "<group>"; };
+		FA833EFB2A5C25C1005A1E16 /* Bicep3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bicep3View.swift; sourceTree = "<group>"; };
+		FA833EFD2A5C25D1005A1E16 /* Bicep2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bicep2View.swift; sourceTree = "<group>"; };
+		FA833EFF2A5C25DD005A1E16 /* Bicep1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bicep1View.swift; sourceTree = "<group>"; };
+		FA833F012A5C261A005A1E16 /* Tricep3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tricep3View.swift; sourceTree = "<group>"; };
+		FA833F032A5C2626005A1E16 /* Tricep2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tricep2View.swift; sourceTree = "<group>"; };
+		FA833F052A5C2632005A1E16 /* Tricep1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tricep1View.swift; sourceTree = "<group>"; };
+		FA833F072A5C264E005A1E16 /* Abdomen3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abdomen3View.swift; sourceTree = "<group>"; };
+		FA833F092A5C265B005A1E16 /* Abdomen2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abdomen2View.swift; sourceTree = "<group>"; };
+		FA833F0B2A5C2667005A1E16 /* Abdomen1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abdomen1View.swift; sourceTree = "<group>"; };
+		FA833F0D2A5C2683005A1E16 /* Antebrazo3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Antebrazo3View.swift; sourceTree = "<group>"; };
+		FA833F0F2A5C2691005A1E16 /* Antebrazo2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Antebrazo2View.swift; sourceTree = "<group>"; };
+		FA833F112A5C269C005A1E16 /* Antebrazo1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Antebrazo1View.swift; sourceTree = "<group>"; };
+		FA833F132A5C26B3005A1E16 /* Pantorrilla2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pantorrilla2View.swift; sourceTree = "<group>"; };
+		FA833F152A5C26D9005A1E16 /* Pantorrilla1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pantorrilla1View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +170,7 @@
 		B841C7702A4763B400E9C229 /* mcfly */ = {
 			isa = PBXGroup;
 			children = (
+				FA833EDC2A5C228A005A1E16 /* Vistas */,
 				C815AC902A5A31E80082E3C7 /* models */,
 				B87C6DA62A4F5C510041D11B /* Controler_log_regis */,
 				B841C7712A4763B400E9C229 /* AppDelegate.swift */,
@@ -153,6 +212,42 @@
 				C815AC932A5A32370082E3C7 /* dats.swift */,
 			);
 			path = models;
+			sourceTree = "<group>";
+		};
+		FA833EDC2A5C228A005A1E16 /* Vistas */ = {
+			isa = PBXGroup;
+			children = (
+				FA833EDD2A5C22B3005A1E16 /* Espalda1View.swift */,
+				FA833EDF2A5C23FC005A1E16 /* Espalda2View.swift */,
+				FA833EE12A5C244C005A1E16 /* Espalda3View.swift */,
+				FA833EE32A5C2492005A1E16 /* Espalda4View.swift */,
+				FA833EE52A5C2506005A1E16 /* Pecho1View.swift */,
+				FA833EE72A5C2519005A1E16 /* Pecho2View.swift */,
+				FA833EE92A5C2529005A1E16 /* Pecho3View.swift */,
+				FA833EEB2A5C2534005A1E16 /* Pecho4View.swift */,
+				FA833EED2A5C254E005A1E16 /* Pierna1View.swift */,
+				FA833EEF2A5C255D005A1E16 /* Pierna2View.swift */,
+				FA833EF12A5C256A005A1E16 /* Pierna3View.swift */,
+				FA833EF32A5C2577005A1E16 /* Pierna4View.swift */,
+				FA833EF52A5C2594005A1E16 /* Hombro3View.swift */,
+				FA833EF72A5C25A2005A1E16 /* Hombro2View.swift */,
+				FA833EF92A5C25AE005A1E16 /* Hombro1View.swift */,
+				FA833EFB2A5C25C1005A1E16 /* Bicep3View.swift */,
+				FA833EFD2A5C25D1005A1E16 /* Bicep2View.swift */,
+				FA833EFF2A5C25DD005A1E16 /* Bicep1View.swift */,
+				FA833F012A5C261A005A1E16 /* Tricep3View.swift */,
+				FA833F032A5C2626005A1E16 /* Tricep2View.swift */,
+				FA833F052A5C2632005A1E16 /* Tricep1View.swift */,
+				FA833F072A5C264E005A1E16 /* Abdomen3View.swift */,
+				FA833F092A5C265B005A1E16 /* Abdomen2View.swift */,
+				FA833F0B2A5C2667005A1E16 /* Abdomen1View.swift */,
+				FA833F0D2A5C2683005A1E16 /* Antebrazo3View.swift */,
+				FA833F0F2A5C2691005A1E16 /* Antebrazo2View.swift */,
+				FA833F112A5C269C005A1E16 /* Antebrazo1View.swift */,
+				FA833F132A5C26B3005A1E16 /* Pantorrilla2View.swift */,
+				FA833F152A5C26D9005A1E16 /* Pantorrilla1View.swift */,
+			);
+			path = Vistas;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,24 +366,53 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA833EF82A5C25A2005A1E16 /* Hombro2View.swift in Sources */,
 				FA7465062A58473600554179 /* AntebrazoViewController.swift in Sources */,
 				FA7E71222A567F5000C9B7B7 /* BicepViewController.swift in Sources */,
 				B841C7762A4763B400E9C229 /* ViewController.swift in Sources */,
 				FA7E71202A567A6C00C9B7B7 /* HombroViewController.swift in Sources */,
 				FA7935352A57B0CB00267B70 /* PantorrillaViewController.swift in Sources */,
+				FA833F142A5C26B3005A1E16 /* Pantorrilla2View.swift in Sources */,
+				FA833F002A5C25DD005A1E16 /* Bicep1View.swift in Sources */,
 				C815AC962A5A329D0082E3C7 /* TableeeeViewController.swift in Sources */,
+				FA833EE42A5C2492005A1E16 /* Espalda4View.swift in Sources */,
+				FA833F022A5C261A005A1E16 /* Tricep3View.swift in Sources */,
+				FA833EFC2A5C25C1005A1E16 /* Bicep3View.swift in Sources */,
+				FA833EF62A5C2594005A1E16 /* Hombro3View.swift in Sources */,
 				C815AC942A5A32370082E3C7 /* dats.swift in Sources */,
 				FA7E711E2A5676E600C9B7B7 /* PechoViewController.swift in Sources */,
+				FA833EFE2A5C25D1005A1E16 /* Bicep2View.swift in Sources */,
+				FA833F0A2A5C265B005A1E16 /* Abdomen2View.swift in Sources */,
 				B841C7722A4763B400E9C229 /* AppDelegate.swift in Sources */,
+				FA833EEE2A5C254E005A1E16 /* Pierna1View.swift in Sources */,
+				FA833F162A5C26D9005A1E16 /* Pantorrilla1View.swift in Sources */,
+				FA833EEA2A5C2529005A1E16 /* Pecho3View.swift in Sources */,
+				FA833F062A5C2632005A1E16 /* Tricep1View.swift in Sources */,
 				FA7935332A57A8AB00267B70 /* PiernaViewController.swift in Sources */,
 				B87C6DAC2A4F68680041D11B /* UserDetailViewController.swift in Sources */,
 				C86A6CF22A4F858700BFA4D6 /* TabPrincipalViewController.swift in Sources */,
+				FA833F0E2A5C2683005A1E16 /* Antebrazo3View.swift in Sources */,
+				FA833F0C2A5C2667005A1E16 /* Abdomen1View.swift in Sources */,
+				FA833EE02A5C23FC005A1E16 /* Espalda2View.swift in Sources */,
+				FA833F042A5C2626005A1E16 /* Tricep2View.swift in Sources */,
+				FA833EE62A5C2506005A1E16 /* Pecho1View.swift in Sources */,
+				FA833EE22A5C244C005A1E16 /* Espalda3View.swift in Sources */,
+				FA833EF42A5C2577005A1E16 /* Pierna4View.swift in Sources */,
 				FA7E71242A5685F400C9B7B7 /* AbdomenViewController.swift in Sources */,
 				FA7465082A58494100554179 /* TricepViewController.swift in Sources */,
 				B87C6DAA2A4F5C7E0041D11B /* RegViewController.swift in Sources */,
 				B841C7742A4763B400E9C229 /* SceneDelegate.swift in Sources */,
+				FA833EEC2A5C2534005A1E16 /* Pecho4View.swift in Sources */,
 				B87C6DA82A4F5C6B0041D11B /* LogViewController.swift in Sources */,
+				FA833F082A5C264E005A1E16 /* Abdomen3View.swift in Sources */,
+				FA833EF02A5C255D005A1E16 /* Pierna2View.swift in Sources */,
+				FA833EFA2A5C25AE005A1E16 /* Hombro1View.swift in Sources */,
+				FA833F122A5C269C005A1E16 /* Antebrazo1View.swift in Sources */,
 				FA7E711C2A566BA200C9B7B7 /* EspaldaViewController.swift in Sources */,
+				FA833EDE2A5C22B3005A1E16 /* Espalda1View.swift in Sources */,
+				FA833EE82A5C2519005A1E16 /* Pecho2View.swift in Sources */,
+				FA833F102A5C2691005A1E16 /* Antebrazo2View.swift in Sources */,
+				FA833EF22A5C256A005A1E16 /* Pierna3View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
